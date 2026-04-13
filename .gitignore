@@ -18,5 +18,5 @@ __pycache__/
 # Jupyter checkpoints
 .ipynb_checkpoints/
 data/
-!data/malaysia/Metadata/
+!Metadata/
 .DS_Store
