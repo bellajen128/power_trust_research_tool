@@ -1,0 +1,392 @@
+{
+  "part3_policy": [
+    {
+      "file_id": "seda_nem_rakyat_gomen_nov2024",
+      "filename": "seda_nem_rakyat_gomen_nov2024.pdf",
+
+      "source": {
+        "organization": "SEDA Malaysia / Energy Commission (ST)",
+        "type": "government_official",
+        "url": "https://www.seda.gov.my/reportal/wp-content/uploads/2024/12/NEM-2024_Rakyat_2211.pdf",
+        "date_published": "2024-11-22",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "Guidelines for Solar PV Installation under NEM Rakyat and NEM GoMEn in Peninsular Malaysia",
+        "programme": "NEM Rakyat / NEM GoMEn",
+        "doc_type": "regulatory_guidelines",
+        "language": "english",
+        "version": "GP/ST/No.27/2021(Pin.2024)",
+        "coverage_years": "2021-2025",
+        "key_data": {
+          "nem_rakyat_total_quota_mw": 700,
+          "nem_gomen_total_quota_mw": 100,
+          "max_capacity_residential_kw": 12,
+          "credit_mechanism": "retail rate offset",
+          "tenure_years": 10
+        },
+        "summary": "Final version of NEM Rakyat (residential) and NEM GoMEn (government buildings) guidelines before programme termination in June 2025. Covers quota history across 6 amendment rounds from 2021 to 2024, billing structure, and eligibility criteria."
+      },
+
+      "rag": {
+        "dimension": "policy",
+        "region": ["peninsular"],
+        "status": "terminated",
+        "end_date": "2025-06-30",
+        "replaced_by": "Solar ATAP",
+        "priority": "low",
+        "doc_role": "historical",
+        "use_for": ["policy_history", "NEM_vs_ATAP_comparison"],
+        "warning": "TERMINATED — NEM Rakyat and GoMEn ended June 2025. Use only for historical context or direct comparison with Solar ATAP. Do not use for current application guidance.",
+        "unknown_unknown_flag": false
+      }
+    },
+
+    {
+      "file_id": "seda_nem_nova_nov2024",
+      "filename": "seda_nem_nova_nov2024.pdf",
+
+      "source": {
+        "organization": "SEDA Malaysia / Energy Commission (ST)",
+        "type": "government_official",
+        "url": "https://www.seda.gov.my/reportal/wp-content/uploads/2024/12/NEM-2024_NOVA_2211.pdf",
+        "date_published": "2024-11-22",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "Guidelines for Solar PV Installation under NOVA Programme in Peninsular Malaysia",
+        "programme": "NOVA (Net Offsets Virtual Aggregation)",
+        "doc_type": "regulatory_guidelines",
+        "language": "english",
+        "version": "GP/ST/No.28/2021(Pin.2024)",
+        "coverage_years": "2021-2025",
+        "key_data": {
+          "nova_total_quota_mw": 1700,
+          "max_capacity_kw": 1000,
+          "credit_mechanism": "virtual aggregation across multiple premises",
+          "eligible_users": "commercial and industrial",
+          "tenure_years": 10
+        },
+        "summary": "Final version of NOVA guidelines before termination in June 2025. NOVA was the most complex NEM category, allowing C&I users to virtually aggregate energy offsets across multiple premises under same ownership. Quota expanded across 4 amendment rounds from 2021 to 2024."
+      },
+
+      "rag": {
+        "dimension": "policy",
+        "region": ["peninsular"],
+        "status": "terminated",
+        "end_date": "2025-06-30",
+        "replaced_by": "Solar ATAP",
+        "priority": "low",
+        "doc_role": "historical",
+        "use_for": ["policy_history", "NEM_vs_ATAP_comparison"],
+        "warning": "TERMINATED — NOVA programme ended June 2025. Use only for historical context or direct comparison with Solar ATAP. Do not use for current application guidance.",
+        "unknown_unknown_flag": false
+      }
+    },
+
+    {
+      "file_id": "seda_solar_atap_contract_jan2026",
+      "filename": "seda_solar_atap_contract_jan2026.pdf",
+
+      "source": {
+        "organization": "SEDA Malaysia",
+        "type": "government_official",
+        "url": "https://www.seda.gov.my/reportal/wp-content/uploads/2026/01/Solar-ATAP-Contract.pdf",
+        "date_published": "2026-01-01",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "Solar Accelerated Transition Action Programme (Solar ATAP) Contract",
+        "programme": "Solar ATAP",
+        "doc_type": "contract_template",
+        "language": "english",
+        "version": "GP/ST/No.60/2025",
+        "coverage_years": "2026-",
+        "key_data": {
+          "quota": "none",
+          "domestic_single_phase_max_kwac": 5,
+          "domestic_three_phase_max_kwac": 15,
+          "non_domestic_max_kw": 1000,
+          "non_domestic_capacity_limit": "100% of maximum demand",
+          "export_credit_mechanism": "SMP (System Marginal Price)",
+          "tenure_years": 10,
+          "effective_date": "2026-01-01",
+          "application_platform": "atap.seda.gov.my"
+        },
+        "summary": "Official contract template for Solar ATAP, effective January 2026. Replaces all NEM programmes. Key improvements: no quota restrictions, continuous programme with no predetermined end date, higher capacity limits, SMP-based export credit for non-domestic users, extended to agricultural users."
+      },
+
+      "rag": {
+        "dimension": "policy",
+        "region": ["peninsular"],
+        "status": "active",
+        "effective_date": "2026-01-01",
+        "priority": "high",
+        "doc_role": "current_regulation",
+        "use_for": ["current_programme", "application_process", "contract_check", "NEM_vs_ATAP_comparison"],
+        "warning": null,
+        "unknown_unknown_flag": false
+      }
+    },
+
+    {
+      "file_id": "netr_part1_2023",
+      "filename": "netr_part1_2023.pdf",
+
+      "source": {
+        "organization": "Ministry of Economy, Malaysia",
+        "type": "government_official",
+        "url": "https://www.st.gov.my/en/contents/files/download/188/NETR_S3.pdf",
+        "date_published": "2023-07-27",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "National Energy Transition Roadmap (NETR) Part 1 — Flagship Catalyst Projects and Initiatives",
+        "programme": "NETR",
+        "doc_type": "policy_roadmap",
+        "language": "english",
+        "coverage_years": "2023-2050",
+        "key_data": {
+          "re_target_2025_pct": 31,
+          "re_target_2035_pct": 40,
+          "re_target_2050_pct": 70,
+          "net_zero_target": 2050,
+          "flagship_projects": 10,
+          "transition_levers": 6,
+          "ghg_reduction_mt_per_year": 10,
+          "total_investment_rm_billion": 25,
+          "jobs_created": 23000
+        },
+        "summary": "Part 1 of Malaysia's National Energy Transition Roadmap launched July 2023. Identifies 10 flagship catalyst projects across 6 levers: energy efficiency, renewable energy, hydrogen, bioenergy, green mobility, and CCUS. Sets legal basis for 70% RE by 2050 target and net-zero by 2050 commitment."
+      },
+
+      "rag": {
+        "dimension": "policy",
+        "region": ["federal"],
+        "status": "active",
+        "effective_date": "2023-07-27",
+        "priority": "high",
+        "doc_role": "policy_direction",
+        "use_for": ["RE_targets", "investment_context", "long_term_policy"],
+        "warning": null,
+        "unknown_unknown_flag": false
+      }
+    },
+
+    {
+      "file_id": "netr_part2_2023",
+      "filename": "netr_part2_2023.pdf",
+
+      "source": {
+        "organization": "Ministry of Economy, Malaysia",
+        "type": "government_official",
+        "url": "https://www.st.gov.my/en/contents/files/download/188/NETR_S3.pdf",
+        "date_published": "2023-08-29",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "National Energy Transition Roadmap (NETR) Part 2 — Roadmap in Full",
+        "programme": "NETR",
+        "doc_type": "policy_roadmap",
+        "language": "english",
+        "coverage_years": "2023-2050",
+        "key_data": {
+          "transition_levers": 6,
+          "enablers": 5,
+          "energy_savings_target_2050_pct": 22,
+          "total_investment_rm_billion_by_2050": 1300,
+          "gdp_contribution_rm_billion": 220,
+          "green_jobs_by_2050": 310000
+        },
+        "summary": "Full NETR roadmap with 6 transition levers and 5 enablers. Covers TPA (Third Party Access) framework, solar parks, floating solar, green hydrogen, carbon pricing, ESCO platform, and grid modernisation. Defines Malaysia's complete regulatory reform agenda through 2050."
+      },
+
+      "rag": {
+        "dimension": "policy",
+        "region": ["federal"],
+        "status": "active",
+        "effective_date": "2023-08-29",
+        "priority": "high",
+        "doc_role": "policy_direction",
+        "use_for": ["RE_targets", "investment_context", "long_term_policy", "grid_capacity"],
+        "warning": null,
+        "unknown_unknown_flag": false
+      }
+    },
+
+    {
+      "file_id": "seda_annual_report_2023",
+      "filename": "seda_annual_report_2023.pdf",
+
+      "source": {
+        "organization": "SEDA Malaysia",
+        "type": "government_official",
+        "url": "https://www.seda.gov.my/wp-content/uploads/2025/04/SEDA-AR2023_ENG_FINAL_S.pdf",
+        "date_published": "2025-04-01",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "SEDA Malaysia Annual Report 2023",
+        "programme": "FiT / NEM / LSS / SELCO",
+        "doc_type": "annual_report",
+        "language": "english",
+        "coverage_years": "2011-2023",
+        "key_data": {
+          "fit_cumulative_capacity_mwac": 618.84,
+          "nem_cumulative_quota_mw": 3000,
+          "lss_cumulative_capacity_mw": 2237,
+          "total_solar_capacity_mw": 5777,
+          "report_year": 2023
+        },
+        "summary": "SEDA Malaysia's official annual report covering FiT, NEM, LSS, and SELCO programme history and statistics from 2011 to 2023. Best single source for the full 12-year policy evolution timeline. Includes capacity data, quota history, and programme milestones."
+      },
+
+      "rag": {
+        "dimension": "policy",
+        "region": ["peninsular", "sabah"],
+        "status": "active",
+        "priority": "high",
+        "doc_role": "policy_history",
+        "use_for": ["policy_history", "programme_statistics", "investment_context"],
+        "warning": null,
+        "unknown_unknown_flag": false
+      }
+    },
+
+    {
+      "file_id": "iea_pvps_country_updates_2025",
+      "filename": "iea_pvps_country_updates_2025.pdf",
+
+      "source": {
+        "organization": "IEA-PVPS (International Energy Agency Photovoltaic Power Systems Programme)",
+        "type": "international_organisation",
+        "url": "https://iea-pvps.org/wp-content/uploads/2025/04/PVPS_Annual_Report_2024_Country_Updates.pdf",
+        "date_published": "2025-04-01",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "IEA-PVPS Country Updates 2025 — Malaysia Chapter",
+        "programme": "FiT / NEM / LSS / SELCO / CRESS / CREAM / CGPP / GTFS",
+        "doc_type": "country_report",
+        "language": "english",
+        "coverage_years": "2024-2025",
+        "key_data": {
+          "nem_quota_subscribed_pct": 87.71,
+          "nem_cumulative_capacity_mw": 2747.92,
+          "lss_cumulative_capacity_mw": 2237,
+          "fit_operational_capacity_mwac": 618.84,
+          "total_solar_capacity_mw": 5777.73,
+          "re_installed_capacity_pct_2025": 31,
+          "gtfs_allocation_rm_billion": 1,
+          "gtfs_expiry": "2025-12-31"
+        },
+        "summary": "Most current IEA overview of all Malaysia solar programmes as of 2025 in English. Covers CRESS (2024), CREAM, CGPP, GTFS 4.0, SolaRIS rebate, and Sarawak SET-P. Explicitly documents Sarawak and Sabah operating under separate regulatory frameworks independent of federal programmes."
+      },
+
+      "rag": {
+        "dimension": ["policy", "utility", "unknown"],
+        "region": ["peninsular", "sabah", "sarawak", "federal"],
+        "status": "active",
+        "priority": "high",
+        "doc_role": "current_overview",
+        "use_for": ["current_programme", "programme_statistics", "regional_comparison", "investment_context"],
+        "warning": null,
+        "unknown_unknown_flag": true,
+        "unknown_unknown_note": "Sarawak operates under SET-P and Sabah under ECoS — both independent from federal SEDA programmes. Federal ATAP and NEM do not apply in Sarawak. Developers must check state-level frameworks separately."
+      }
+    },
+
+    {
+      "file_id": "bnef_malaysia_techno_economic_apr2025",
+      "filename": "bnef_malaysia_techno_economic_apr2025.pdf",
+
+      "source": {
+        "organization": "BloombergNEF",
+        "type": "research_institution",
+        "url": "https://assets.bbhub.io/professional/sites/24/Malaysia-A-Techno-Economic-Analysis-of-Power-Generation.pdf",
+        "date_published": "2025-04-09",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "Malaysia: A Techno-Economic Analysis of Power Generation",
+        "programme": null,
+        "doc_type": "research_report",
+        "language": "english",
+        "coverage_years": "2024-2025",
+        "key_data": {
+          "utility_solar_lcoe_usd_mwh_low": 33,
+          "utility_solar_lcoe_usd_mwh_high": 61,
+          "ccgt_lcoe_usd_mwh_low": 78,
+          "ccgt_lcoe_usd_mwh_high": 89,
+          "coal_lcoe_usd_mwh_low": 56,
+          "coal_lcoe_usd_mwh_high": 77,
+          "currency_basis": "real 2024 USD"
+        },
+        "summary": "BloombergNEF's techno-economic analysis of Malaysia's power generation landscape. Solar is the cheapest new generation source at $33-61/MWh, below CCGT and coal. Includes CAPEX benchmarks, cross-technology cost comparison, and long-term cost trajectory analysis."
+      },
+
+      "rag": {
+        "dimension": ["cost", "utility"],
+        "region": ["peninsular", "federal"],
+        "status": "active",
+        "priority": "high",
+        "doc_role": "cost_benchmark",
+        "use_for": ["LCOE_reference", "investment_context"],
+        "warning": null,
+        "unknown_unknown_flag": false
+      }
+    },
+
+    {
+      "file_id": "ember_solar_grid_flexibility_oct2024",
+      "filename": "ember_solar_grid_flexibility_oct2024.pdf",
+
+      "source": {
+        "organization": "Ember",
+        "type": "research_institution",
+        "url": "https://ember-energy.org/latest-insights/solar-and-grid-flexibility-critical-for-malaysia/",
+        "date_published": "2024-08-07",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "Solar and Grid Flexibility Critical for Malaysia's Future Electricity Affordability and Security",
+        "programme": null,
+        "doc_type": "research_report",
+        "language": "english",
+        "coverage_years": "2024-2035",
+        "key_data": {
+          "peninsular_additional_solar_capacity_before_storage_gw": 2.4,
+          "sabah_lss_quota_mw": 150,
+          "peninsular_lss_quota_mw": 2060,
+          "sabah_solar_installed_mw": 60,
+          "sarawak_tariff_sen_kwh": 28.05,
+          "sabah_tariff_sen_kwh": 34.5,
+          "peninsular_tariff_sen_kwh": 40.0,
+          "peninsular_electricity_demand_share_pct": 74
+        },
+        "summary": "Ember's analysis of Malaysia's grid flexibility needs by region. Key findings: Peninsular Malaysia can absorb 2.4GW of additional solar before storage is needed; Sabah's LSS quota is only 150MW vs Peninsular's 2,060MW; regional tariff gap of 28-40 sen/kWh creates significant revenue differences across regions."
+      },
+
+      "rag": {
+        "dimension": "grid",
+        "region": ["peninsular", "sabah", "sarawak"],
+        "status": "active",
+        "priority": "high",
+        "doc_role": "grid_analysis",
+        "use_for": ["grid_capacity", "regional_comparison", "curtailment_risk", "investment_context"],
+        "warning": null,
+        "unknown_unknown_flag": true,
+        "unknown_unknown_note": "Sabah LSS quota only 150MW vs Peninsular 2,060MW — quota may already be exhausted. Regional tariff gap (28 vs 40 sen/kWh) means project revenue differs by 30%+ depending on region. Neither gap is visible in official policy documents."
+      }
+    }
+  ]
+}

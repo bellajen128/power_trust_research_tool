@@ -1,0 +1,147 @@
+{
+  "file_id": "us_tariff_final_determination_apr2025",
+  "filename": "US_Tariff_Final_Determination_2025.html",
+
+  "source": {
+    "organization": "U.S. Department of Commerce / Norton Rose Fulbright",
+    "type": "legal_analysis",
+    "url": "https://www.projectfinance.law/publications/2025/april/updated-solar-import-tariffs/",
+    "date_published": "2025-04-22",
+    "date_fetched": "2026-04-11"
+  },
+
+  "content": {
+    "title": "Final AD/CVD Determinations on Solar Cells from Malaysia, Cambodia, Thailand, Vietnam",
+    "doc_type": "legal_analysis",
+    "language": "english",
+    "coverage_years": "2024-2026",
+    "key_data": {
+      "cvd_effective_date_malaysia": "2024-10-04",
+      "ad_effective_date_malaysia": "2024-12-04",
+      "reciprocal_tariff_malaysia_pct": 24,
+      "reciprocal_tariff_status": "suspended_90_days_as_of_apr2025",
+      "section_201_tariff_pct": 14,
+      "section_201_expiry": "2026-02-06",
+      "ad_rate_malaysia_all_others_pct": "21-271",
+      "final_determination_date": "2025-04-21",
+      "cumulative_tariff_impact": "AD + CVD + Section 201 + reciprocal tariffs stack"
+    },
+    "summary": "Final US anti-dumping and countervailing duty determinations on Malaysian solar panels. Multiple tariff layers stack on top of each other. Short-term effect: Malaysian manufacturers redirect export inventory to domestic market, suppressing local CAPEX. Long-term risk: manufacturers may shut Malaysian facilities entirely, disrupting domestic solar supply chain. Maxeon already evaluating closure of Malaysian Fab 3."
+  },
+
+  "rag": {
+    "dimension": ["unknown", "cost"],
+    "region": ["federal"],
+    "status": "active",
+    "priority": "high",
+    "doc_role": "supply_chain_risk",
+    "use_for": ["CAPEX_risk", "supply_chain", "module_pricing"],
+    "warning": "Tariff rates subject to ongoing appeals and negotiations — verify current status before financial modelling.",
+    "unknown_unknown_flag": true,
+    "unknown_unknown_note": "US tariffs create a paradox: short-term CAPEX deflation as manufacturers flood domestic market with unsold inventory, followed by potential long-term supply disruption if facilities close. Net CAPEX impact is uncertain and not disclosed in any official Malaysian solar programme documents.",
+    "trigger_keywords": ["module price", "CAPEX", "supply chain", "panel cost"],
+    "proactive_alert": true,
+    "alert_message": "Did you know? US anti-dumping tariffs on Malaysian solar panels may temporarily lower your local module costs as manufacturers redirect stock domestically — but could cause supply shortages if manufacturers close Malaysian facilities.",
+    "risk_visibility": "low",
+    "legal_risk_level": "medium"
+  }
+},
+
+{
+  "file_id": "sarawak_set_p_independent_framework_2025",
+  "filename": "Sarawak_SETP_Framework_2025.html",
+
+  "source": {
+    "organization": "Reccessary / Sarawak Government",
+    "type": "industry_media",
+    "url": "https://www.reccessary.com/en/news/sarawak-unveils-energy-transition-policy-first-in-malaysia",
+    "date_published": "2025-08-12",
+    "date_fetched": "2026-04-11"
+  },
+
+  "content": {
+    "title": "Sarawak Energy Transition Policy (SET-P) — First State-Level Energy Transition Policy in Malaysia",
+    "doc_type": "policy_announcement",
+    "language": "english",
+    "coverage_years": "2025-2035",
+    "key_data": {
+      "estimated_economic_value_myr_billion": 550,
+      "estimated_economic_value_usd_billion": 129.9,
+      "jobs_created": 80000,
+      "re_target_2030_pct": 60,
+      "total_capacity_target_2030_gw": 10,
+      "total_capacity_target_2035_gw": 15,
+      "solar_target_2030_mw": 1500,
+      "hydro_capacity_2030_mw": 4800,
+      "energy_export_target_mw": 130,
+      "federal_seda_programmes_applicable": false,
+      "state_council_planned": true,
+      "seven_priority_areas": ["RE", "natural_gas", "energy_efficiency", "low_carbon_transport", "clean_hydrogen", "CCUS", "alternative_energy"]
+    },
+    "summary": "Sarawak launched Malaysia's first state-level energy transition policy in August 2025. Seven priority areas include RE, hydrogen, and CCUS. Critically: federal SEDA programmes (ATAP, LSS) do not apply in Sarawak — developers must engage with SEB (Sarawak Energy Berhad) under separate state ordinance. Sarawak's abundant hydropower gives it a completely different cost structure and grid dynamics from Peninsular Malaysia. Floating solar at Bakun Dam (up to 1GW) represents a major opportunity invisible in federal programme documents."
+  },
+
+  "rag": {
+    "dimension": ["unknown", "policy", "grid"],
+    "region": ["sarawak"],
+    "status": "active",
+    "priority": "high",
+    "doc_role": "regional_policy_framework",
+    "use_for": ["sarawak_policy", "regional_comparison", "investment_context"],
+    "warning": "SET-P is a 2025 policy — implementation details and programme mechanisms are still being developed.",
+    "unknown_unknown_flag": true,
+    "unknown_unknown_note": "Developers applying for federal ATAP or LSS programmes will discover that these do not apply in Sarawak only after submitting applications. Sarawak requires separate engagement with SEB under Sarawak Electricity Ordinance — a completely different regulatory process with different timelines, fees, and approval criteria.",
+    "trigger_keywords": ["Sarawak", "SET-P", "SEB", "Bakun", "floating solar"],
+    "proactive_alert": true,
+    "alert_message": "Did you know? Federal solar programmes (ATAP, LSS) do not apply in Sarawak. If your project is in Sarawak, you must apply under the state's own SET-P framework through SEB — a completely different process.",
+    "risk_visibility": "invisible",
+    "legal_risk_level": "high"
+  }
+},
+
+{
+  "file_id": "malaysia_rec_market_fragmentation_2025",
+  "filename": "Malaysia_REC_Market_Assessment_2025.html",
+
+  "source": {
+    "organization": "ASEAN Centre for Energy",
+    "type": "research_institution",
+    "url": "https://aseanenergy.org/wp-content/uploads/2025/01/Policy-Brief_Malaysia-REC-Assessment.pdf",
+    "date_published": "2025-01-01",
+    "date_fetched": "2026-04-11"
+  },
+
+  "content": {
+    "title": "Malaysia REC Market Assessment — Three Independent REC Systems",
+    "doc_type": "policy_brief",
+    "language": "english",
+    "coverage_years": "2024-2030",
+    "key_data": {
+      "independent_rec_systems": 3,
+      "rec_systems": ["Peninsular (ENEGEM)", "Sabah (ECoS framework)", "Sarawak (SEB framework)"],
+      "cross_region_rec_tradeable": false,
+      "cgpp_quota_mw": 800,
+      "cgpp_fully_subscribed": true,
+      "cgpp_participants": 32,
+      "rec_market_harmonisation_status": "under_discussion"
+    },
+    "summary": "ASEAN Centre for Energy policy brief on Malaysia's fragmented REC market. Three independent systems across Peninsular, Sabah, and Sarawak cannot trade RECs with each other. Corporate buyers seeking to procure RE across multiple regions must navigate three separate regulatory frameworks. CGPP (800MW) already fully subscribed with 32 participants. REC market harmonisation discussed but not yet implemented."
+  },
+
+  "rag": {
+    "dimension": ["unknown", "utility", "policy"],
+    "region": ["peninsular", "sabah", "sarawak", "federal"],
+    "status": "active",
+    "priority": "medium",
+    "doc_role": "market_structure_analysis",
+    "use_for": ["REC_market", "corporate_procurement", "regional_comparison", "CRESS_context"],
+    "warning": null,
+    "unknown_unknown_flag": true,
+    "unknown_unknown_note": "Malaysia has three non-interoperable REC systems across its three independent grids. A corporate buyer in Peninsular Malaysia cannot use Sarawak RECs to meet its ESG targets — and vice versa. This fragmentation is not disclosed in CRESS or CGPP programme documents, yet directly affects whether corporate RE procurement agreements can be structured across regions.",
+    "trigger_keywords": ["REC", "green certificate", "CRESS", "corporate procurement", "ESG"],
+    "proactive_alert": true,
+    "alert_message": "Did you know? Malaysia's three grid regions have separate, non-tradeable REC systems. RECs issued in Sarawak cannot be used to meet ESG targets in Peninsular Malaysia. Cross-regional RE procurement requires separate agreements in each jurisdiction.",
+    "risk_visibility": "invisible",
+    "legal_risk_level": "medium"
+  }
+}

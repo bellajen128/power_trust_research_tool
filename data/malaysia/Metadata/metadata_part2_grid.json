@@ -1,0 +1,525 @@
+{
+  "part2_grid_access": [
+    {
+      "file_id": "tnb_malaysian_grid_code_2020",
+      "filename": "TNB_Malaysian_Grid_Code_2020.pdf",
+
+      "source": {
+        "organization": "Tenaga Nasional Berhad (TNB) / Energy Commission Malaysia",
+        "type": "government_official",
+        "url": "https://www.tnb.com.my/assets/files/Malaysian_Grid_Code_2020.pdf",
+        "date_published": "2020-01-01",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "Grid Code for Peninsular Malaysia (Amendments) 2020",
+        "programme": null,
+        "doc_type": "technical_regulation",
+        "language": "english",
+        "coverage_years": "2011-2020",
+        "key_data": {
+          "enforced_since": "2011-01-01",
+          "latest_amendment": "2020",
+          "coverage": "Peninsular Malaysia only",
+          "applies_to": ["generators", "grid_system_operators", "distribution_operators", "large_consumers"],
+          "code_sections": ["Planning Code", "Connection Code", "Operation Code", "Scheduling and Dispatch Code"],
+          "voltage_levels": ["132kV", "275kV", "500kV"]
+        },
+        "summary": "Official technical regulation governing all electricity supply activities in Peninsular Malaysia. Defines minimum technical, design and operational criteria for connecting to the grid. Covers planning, connection requirements, real-time operation, scheduling and dispatch. Enforced by Energy Commission since January 2011 with 2020 amendments. Applies only to Peninsular Malaysia — Sabah and Sarawak operate under separate grid codes."
+      },
+
+      "rag": {
+        "dimension": ["grid"],
+        "region": ["peninsular"],
+        "status": "active",
+        "priority": "high",
+        "doc_role": "technical_standard",
+        "use_for": ["grid_connection_requirements", "technical_compliance", "connection_process"],
+        "warning": "Applies to Peninsular Malaysia only. Sabah governed by SESB rules; Sarawak governed by SEB under state authority.",
+        "unknown_unknown_flag": false
+      }
+    },
+
+    {
+      "file_id": "tnb_dg_interconnection_guideline_2018",
+      "filename": "TNB_DG_Interconnection_Guideline_2018.pdf",
+
+      "source": {
+        "organization": "Tenaga Nasional Berhad (TNB)",
+        "type": "government_official",
+        "url": "https://www.mytnb.com.my/-/media/Project/TNB/myTNBportal/Documents/Guides-and-Booklets/Technical-Guideline-for-Interconnection-of-Distributed-Generator-to-Distribution-System-2018.pdf",
+        "date_published": "2018-01-01",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "Technical Guideline for Interconnection of Distributed Generator to Distribution System",
+        "programme": "NEM / FiT / LSS / SELCO",
+        "doc_type": "technical_guideline",
+        "language": "english",
+        "coverage_years": "2018-present",
+        "key_data": {
+          "nemas_threshold_kwp": 72,
+          "lv_connection_max_kwp": 72,
+          "mv_connection_min_kwp": 72,
+          "dg_penetration_limit_pct_feeder": 30,
+          "connection_types": ["direct_LV", "indirect_LV", "direct_MV", "indirect_MV"],
+          "power_quality_requirements_included": true,
+          "applies_to": ["solar_PV", "biomass", "biogas", "small_hydro"],
+          "coverage": "Peninsular Malaysia and Sabah (SESB)"
+        },
+        "summary": "TNB's technical guideline for connecting distributed generation systems to the distribution network. Defines the 72kWp threshold above which NEMAS (Network Impact Assessment Study) is mandatory. Specifies connection schemes for LV and MV networks, power quality requirements, protection relay settings, and DG penetration limits (30% per feeder). Covers both Peninsular Malaysia (TNB) and Sabah (SESB). Most important document for understanding actual grid connection process for distributed solar projects."
+      },
+
+      "rag": {
+        "dimension": ["grid"],
+        "region": ["peninsular", "sabah"],
+        "status": "active",
+        "priority": "high",
+        "doc_role": "connection_process_reference",
+        "use_for": ["grid_connection_requirements", "NEMAS_process", "technical_compliance", "connection_timeline"],
+        "warning": "Published 2018 — superseded in part by SEDA ATAP Guidelines 2025 for assessment study procedures. Use this for technical specifications; use SEDA ATAP docs for current application process and fees.",
+        "unknown_unknown_flag": false
+      }
+    },
+
+    {
+      "file_id": "tnb_investor_deck_2025",
+      "filename": "TNB_Investor_Deck_2025.pdf",
+
+      "source": {
+        "organization": "Tenaga Nasional Berhad (TNB)",
+        "type": "corporate_official",
+        "url": "https://www.tnb.com.my/assets/conference_materials/TNB_Investor_Deck_December_2025.pdf",
+        "date_published": "2025-12-01",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "TNB Investor Presentation — December 2025",
+        "programme": null,
+        "doc_type": "investor_presentation",
+        "language": "english",
+        "coverage_years": "2024-2025",
+        "key_data": {
+          "peninsular_saidi_minutes": 47.88,
+          "peninsular_retail_customers_million": 10.4,
+          "peninsular_distribution_network_km": 738028,
+          "peninsular_substations": 99374,
+          "total_tnb_gross_capacity_mw": 21041,
+          "smart_meters_installed_million": 4.57,
+          "nem_customers": 60860,
+          "grid_investment_rp4_rm_billion": 45,
+          "rp4_period": "2025-2027",
+          "hhfs_capacity_mw": 2500
+        },
+        "summary": "TNB's latest investor deck with official grid reliability statistics. Key metric: Peninsular Malaysia SAIDI of 47.88 minutes — critical for comparison against Sabah's 203-286 minutes. Documents RP4 grid investment of RM45 billion (2025-2027), 4.57 million smart meters deployed, 60,860 NEM customers, and 2,500MW Hybrid Hydro Floating Solar pipeline. Provides most current official data on grid scale and reliability."
+      },
+
+      "rag": {
+        "dimension": ["grid", "cost"],
+        "region": ["peninsular", "sabah"],
+        "status": "active",
+        "priority": "high",
+        "doc_role": "grid_statistics_reference",
+        "use_for": ["grid_reliability", "SAIDI_benchmark", "grid_capacity", "investment_context", "NEM_statistics"],
+        "warning": null,
+        "unknown_unknown_flag": true,
+        "unknown_unknown_note": "Peninsular SAIDI of 47.88 minutes vs Sabah SAIDI of 203-286 minutes (from separate sources) — a 4-6x reliability gap not prominently disclosed in official policy documents. Developers planning projects in Sabah face significantly higher curtailment and outage risk."
+      }
+    },
+
+    {
+      "file_id": "wikipedia_malaysia_electricity_sector",
+      "filename": "Wikipedia_Malaysia_Electricity.html",
+
+      "source": {
+        "organization": "Wikipedia",
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Electricity_sector_in_Malaysia",
+        "date_published": "2024-01-01",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "Electricity Sector in Malaysia — Wikipedia",
+        "programme": null,
+        "doc_type": "reference_overview",
+        "language": "english",
+        "coverage_years": "1990-2024",
+        "key_data": {
+          "independent_grids": 3,
+          "grid_names": ["Peninsular Malaysia (TNB)", "Sabah (SESB)", "Sarawak (SEB)"],
+          "grid_interconnected": false,
+          "peninsular_frequency_hz": 50,
+          "tnb_ownership_pct_peninsular_td": 100,
+          "total_installed_capacity_mw_2024": 37422,
+          "renewable_share_pct_2024": 22,
+          "coal_share_pct": 43,
+          "gas_share_pct": 36
+        },
+        "summary": "Wikipedia overview of Malaysia's electricity sector structure. Documents the three independent and non-interconnected grids (Peninsular, Sabah, Sarawak) with separate utilities, regulators, and policies. Provides historical context, generation mix, and institutional structure. Useful for understanding why federal solar policies do not automatically apply in Sabah and Sarawak."
+      },
+
+      "rag": {
+        "dimension": ["grid", "utility"],
+        "region": ["peninsular", "sabah", "sarawak", "federal"],
+        "status": "active",
+        "priority": "medium",
+        "doc_role": "structural_overview",
+        "use_for": ["grid_structure", "institutional_context", "regional_comparison"],
+        "warning": "Wikipedia — use for structural and historical context only. Cross-reference with official TNB, SEDA, and Energy Commission sources for regulatory and technical details.",
+        "unknown_unknown_flag": false
+      }
+    },
+
+    {
+      "file_id": "tnb_der_integration",
+      "filename": "TNB_DER_Integration.html",
+
+      "source": {
+        "organization": "Tenaga Nasional Berhad (TNB)",
+        "type": "corporate_official",
+        "url": "https://www.tnb.com.my/smart-grid/der-integration",
+        "date_published": "2024-01-01",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "Distributed Energy Resources (DER) Integration — TNB Smart Grid",
+        "programme": "NEM / LSS / ATAP",
+        "doc_type": "corporate_webpage",
+        "language": "english",
+        "coverage_years": "2024-2025",
+        "key_data": {
+          "dg_hosting_capacity_map_available": true,
+          "map_search_parameters": ["capacity_MW", "location", "radius_km", "DG_type"],
+          "der_types_supported": ["solar_PV", "biomass", "biogas", "small_hydro"],
+          "bess_pilot_capacity_kwp_solar": 500,
+          "bess_pilot_capacity_mwh": 1,
+          "hosting_capacity_map_status": "under_maintenance_as_of_april_2026"
+        },
+        "summary": "TNB's page on Distributed Energy Resources integration and the DG Hosting Capacity Map. The map allows developers to search grid connection availability by location, capacity, and DG type — critical for pre-feasibility assessment. As of April 2026 the map is under maintenance. Also documents BESS pilot projects and smart grid DER integration strategy."
+      },
+
+      "rag": {
+        "dimension": ["grid"],
+        "region": ["peninsular"],
+        "status": "active",
+        "priority": "medium",
+        "doc_role": "grid_capacity_tool_reference",
+        "use_for": ["grid_connection_availability", "hosting_capacity", "pre_feasibility"],
+        "warning": "DG Hosting Capacity Map was under maintenance as of April 2026. Developers should check map availability directly at dghostingcapacity.tnb.com.my before relying on this for connection feasibility.",
+        "unknown_unknown_flag": false
+      }
+    },
+
+    {
+      "file_id": "tnb_data_analytics",
+      "filename": "TNB_DataAnalytics.html",
+
+      "source": {
+        "organization": "Tenaga Nasional Berhad (TNB)",
+        "type": "corporate_official",
+        "url": "https://www.tnb.com.my/smart-grid/data-analytics",
+        "date_published": "2025-03-31",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "TNB Smart Grid Data Analytics — Advanced Metering Infrastructure",
+        "programme": "NEM / AMI",
+        "doc_type": "corporate_webpage",
+        "language": "english",
+        "coverage_years": "2024-2025",
+        "key_data": {
+          "smart_meters_installed_total": 4571144,
+          "smart_meters_as_of_date": "2025-03-31",
+          "nem_prosumer_customers": 60860,
+          "ami_target_total_meters": 9100000,
+          "ami_deployment_regions_rp4": ["Penang", "Johor", "Perak", "Kedah", "Selangor"],
+          "special_protection_schemes": 6,
+          "fault_location_accuracy_pct": 90
+        },
+        "summary": "TNB's smart grid data analytics page documenting Advanced Metering Infrastructure (AMI) deployment. Key statistics: 4.57 million smart meters installed as of March 2025 (target 9.1 million), 60,860 NEM prosumer customers feeding solar back to grid. AMI enables real-time monitoring of grid connection points relevant to distributed solar integration."
+      },
+
+      "rag": {
+        "dimension": ["grid"],
+        "region": ["peninsular"],
+        "status": "active",
+        "priority": "low",
+        "doc_role": "grid_statistics_supplement",
+        "use_for": ["NEM_statistics", "grid_monitoring", "smart_grid_context"],
+        "warning": null,
+        "unknown_unknown_flag": false
+      }
+    },
+
+    {
+      "file_id": "seda_atap_guidelines_2025",
+      "filename": "SEDA_ATAP_Guidelines.pdf",
+
+      "source": {
+        "organization": "SEDA Malaysia / Energy Commission (ST)",
+        "type": "government_official",
+        "url": "https://www.seda.gov.my/reportal/atap/",
+        "date_published": "2025-12-30",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "Guidelines of Solar Accelerated Transition Action Programme (Solar ATAP)",
+        "programme": "Solar ATAP",
+        "doc_type": "regulatory_guidelines",
+        "language": "english",
+        "version": "As of 30 December 2025",
+        "coverage_years": "2026-",
+        "key_data": {
+          "domestic_single_phase_max_kwac": 5,
+          "domestic_three_phase_max_kwac": 15,
+          "non_domestic_max_kw": 1000,
+          "non_domestic_capacity_limit": "100% of maximum demand",
+          "ccc_threshold_single_phase_kw": 5,
+          "ccc_threshold_three_phase_kw": 15,
+          "cas_threshold_min_kw": 72,
+          "cas_threshold_max_kw": 425,
+          "cas_fee_72_180kw_rm": 1000,
+          "cas_fee_180_425kw_rm": 5000,
+          "cas_fee_425kw_1mw_rm": 8000,
+          "pss_threshold": "HV Connection",
+          "pss_fee_rm": 15000,
+          "export_credit_mechanism": "SMP (System Marginal Price)",
+          "effective_date": "2026-01-01",
+          "quota": "none"
+        },
+        "summary": "Official SEDA guidelines for Solar ATAP effective January 2026. Defines complete application process, technical assessment requirements by system size, and export credit mechanism. Key threshold: systems above 72kW require Connection Assessment Study (CAS); HV connections require Power System Study (PSS). No quota restrictions — continuous programme replacing NEM. Export credit for non-domestic users based on System Marginal Price (SMP) rather than fixed retail rate."
+      },
+
+      "rag": {
+        "dimension": ["grid", "policy"],
+        "region": ["peninsular"],
+        "status": "active",
+        "priority": "high",
+        "doc_role": "current_application_process",
+        "use_for": ["grid_connection_requirements", "application_process", "assessment_fees", "current_programme"],
+        "warning": "Applies to Peninsular Malaysia only. Sabah and Sarawak have separate programmes.",
+        "unknown_unknown_flag": false
+      }
+    },
+
+    {
+      "file_id": "atap_assessment_study_form",
+      "filename": "ATAP_Assessment_Study_form_br___.pdf",
+
+      "source": {
+        "organization": "SEDA Malaysia / Energy Commission (ST)",
+        "type": "government_official",
+        "url": "https://www.seda.gov.my/reportal/atap/",
+        "date_published": "2026-01-14",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "Solar ATAP Technical Assessment Study Application Form",
+        "programme": "Solar ATAP",
+        "doc_type": "application_form",
+        "language": "english",
+        "version": "Updated as of 14 January 2026",
+        "coverage_years": "2026-",
+        "key_data": {
+          "form_type": "CAS and CCC application",
+          "submitted_to": "TNB (Electricity Utility Company)",
+          "required_before": "Solar ATAP application submission",
+          "study_conducted_by": "EUC or appointed consultant"
+        },
+        "summary": "Official application form for Solar ATAP Technical Assessment Study (CAS/CCC). Submitted to TNB before applying for Solar ATAP. Study conducted by TNB or its appointed consultant to establish technical and safety requirements and determine connection feasibility. Most recently updated January 2026."
+      },
+
+      "rag": {
+        "dimension": ["grid"],
+        "region": ["peninsular"],
+        "status": "active",
+        "priority": "low",
+        "doc_role": "application_form",
+        "use_for": ["application_process", "grid_connection_requirements"],
+        "warning": null,
+        "unknown_unknown_flag": false
+      }
+    },
+
+    {
+      "file_id": "seda_atap_pss_process_flow",
+      "filename": "SEDA_ATAP_PSS_Process_Flow.pdf",
+
+      "source": {
+        "organization": "SEDA Malaysia / Energy Commission (ST)",
+        "type": "government_official",
+        "url": "https://www.seda.gov.my/reportal/atap/",
+        "date_published": "2025-12-31",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "Solar ATAP Technical Assessment Study Process Flow for PSS (Power System Study)",
+        "programme": "Solar ATAP",
+        "doc_type": "process_flowchart",
+        "language": "english",
+        "version": "As of 31 December 2025",
+        "coverage_years": "2026-",
+        "key_data": {
+          "applies_to": "HV Connection (High Voltage)",
+          "fee_rm": 15000,
+          "study_type": "Power System Study (PSS)",
+          "trigger": "projects requiring HV grid connection"
+        },
+        "summary": "Official process flow diagram for Power System Study (PSS) — the most demanding level of grid connection assessment required for High Voltage connections. Fee is RM15,000. Used for large commercial and industrial solar projects. Shows step-by-step workflow from application to TNB approval."
+      },
+
+      "rag": {
+        "dimension": ["grid"],
+        "region": ["peninsular"],
+        "status": "active",
+        "priority": "medium",
+        "doc_role": "process_reference",
+        "use_for": ["grid_connection_requirements", "large_project_process", "application_timeline"],
+        "warning": null,
+        "unknown_unknown_flag": false
+      }
+    },
+
+    {
+      "file_id": "seda_atap_ccc_cas_process_flow",
+      "filename": "SEDA_ATAP_CCC_CAS_Process_Flow.pdf",
+
+      "source": {
+        "organization": "SEDA Malaysia / Energy Commission (ST)",
+        "type": "government_official",
+        "url": "https://www.seda.gov.my/reportal/atap/",
+        "date_published": "2025-12-31",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "Solar ATAP Technical Assessment Study Process Flow for CCC and CAS",
+        "programme": "Solar ATAP",
+        "doc_type": "process_flowchart",
+        "language": "english",
+        "version": "As of 31 December 2025",
+        "coverage_years": "2026-",
+        "key_data": {
+          "ccc_applies_to": "domestic systems: single phase >5kW, three phase >15kW",
+          "cas_applies_to": "non-domestic: 72kW to 1MW",
+          "cas_fee_tiers_rm": {
+            "72_to_180kw": 1000,
+            "180_to_425kw": 5000,
+            "425kw_to_1mw": 8000
+          },
+          "study_conducted_by": "TNB or appointed consultant"
+        },
+        "summary": "Official process flow diagram for Connection Confirmation Check (CCC) and Connection Assessment Study (CAS). CCC applies to domestic systems exceeding phase-specific thresholds. CAS applies to non-domestic systems 72kW-1MW with tiered fees (RM1,000 to RM8,000). Most relevant process document for typical commercial and industrial distributed solar projects. Shows complete step-by-step workflow."
+      },
+
+      "rag": {
+        "dimension": ["grid"],
+        "region": ["peninsular"],
+        "status": "active",
+        "priority": "high",
+        "doc_role": "process_reference",
+        "use_for": ["grid_connection_requirements", "application_process", "assessment_fees", "connection_timeline"],
+        "warning": null,
+        "unknown_unknown_flag": false
+      }
+    },
+
+    {
+      "file_id": "renewablewatch_malaysia_grid_2024",
+      "filename": "RenewableWatch_Malaysia_Grid.html",
+
+      "source": {
+        "organization": "Renewable Watch",
+        "type": "industry_media",
+        "url": "https://renewablewatch.in/2024/03/05/transition-roadmap-malaysias-efforts-to-modernise-its-power-sector/",
+        "date_published": "2024-03-05",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "Transition Roadmap: Malaysia's Efforts to Modernise its Power Sector",
+        "programme": "NETR / Grid Modernisation",
+        "doc_type": "industry_analysis",
+        "language": "english",
+        "coverage_years": "2023-2025",
+        "key_data": {
+          "transmission_network_km": 34125,
+          "tnb_ownership_pct": 76,
+          "seb_sarawak_ownership_pct": 15,
+          "sesb_sabah_ownership_pct": 9,
+          "tnb_grid_investment_rp4_usd_billion": 10.3,
+          "re_target_2050_pct": 70,
+          "grid_operator_structure": "3 separate independent utilities"
+        },
+        "summary": "Industry analysis of Malaysia's grid modernisation roadmap. Key data: 34,125km total transmission network split across TNB (76%), SEB Sarawak (15%), and SESB Sabah (9%). Documents RM45 billion (USD10.3B) TNB grid investment 2025-2027 under RP4. Explains structural basis for why Malaysia's three grids remain independent and the governance implications for solar developers operating across regions."
+      },
+
+      "rag": {
+        "dimension": ["grid"],
+        "region": ["peninsular", "sabah", "sarawak", "federal"],
+        "status": "active",
+        "priority": "medium",
+        "doc_role": "grid_structure_reference",
+        "use_for": ["grid_structure", "grid_ownership", "investment_context", "regional_comparison"],
+        "warning": "Industry media source — cross-reference with official TNB and Energy Commission data for authoritative figures.",
+        "unknown_unknown_flag": false
+      }
+    },
+
+    {
+      "file_id": "non_domestic_application_process",
+      "filename": "Non-domestic_application_process.png",
+
+      "source": {
+        "organization": "SEDA Malaysia / Energy Commission (ST)",
+        "type": "government_official",
+        "url": "https://www.seda.gov.my/reportal/atap/",
+        "date_published": "2025-12-31",
+        "date_fetched": "2026-04-11"
+      },
+
+      "content": {
+        "title": "Solar ATAP Non-Domestic Technical Assessment Requirements Table",
+        "programme": "Solar ATAP",
+        "doc_type": "screenshot_table",
+        "language": "english",
+        "version": "As of 31 December 2025",
+        "coverage_years": "2026-",
+        "key_data": {
+          "table_type": "non_domestic_assessment_requirements",
+          "rows": [
+            {"type": "N/A", "capacity": "1kW-72kW", "fee_rm": 0},
+            {"type": "CAS", "capacity": "72kW-180kW", "fee_rm": 1000},
+            {"type": "CAS", "capacity": "180kW-425kW", "fee_rm": 5000},
+            {"type": "CAS", "capacity": "425kW-1MW", "fee_rm": 8000},
+            {"type": "PSS", "capacity": "HV Connection", "fee_rm": 15000}
+          ],
+          "domestic_single_phase_threshold_kw": 5,
+          "domestic_three_phase_threshold_kw": 15,
+          "domestic_fee_rm": 1000
+        },
+        "summary": "Screenshot of the official SEDA ATAP non-domestic technical assessment requirements table. Shows complete fee structure and assessment type by system capacity: no assessment for 1-72kW; CAS at RM1,000/5,000/8,000 for 72kW-1MW tiers; PSS at RM15,000 for HV connections. Also shows domestic thresholds (>5kW single phase, >15kW three phase at RM1,000). Key reference for grid connection cost estimation."
+      },
+
+      "rag": {
+        "dimension": ["grid"],
+        "region": ["peninsular"],
+        "status": "active",
+        "priority": "high",
+        "doc_role": "fee_reference_table",
+        "use_for": ["assessment_fees", "grid_connection_requirements", "cost_estimation"],
+        "warning": "Screenshot format — not machine-readable. Key data extracted into key_data field above for RAG use. Verify against SEDA_ATAP_Guidelines.pdf for authoritative figures.",
+        "unknown_unknown_flag": false
+      }
+    }
+  ]
+}
