@@ -1,0 +1,17 @@
+langchain
+langchain-community
+langchain-core
+langchain-huggingface
+langchain-text-splitters
+chromadb
+sentence-transformers
+pymupdf
+beautifulsoup4
+groq
+python-dotenv
+ddgs
+streamlit
+plotly
+folium
+streamlit-folium
+pandas
