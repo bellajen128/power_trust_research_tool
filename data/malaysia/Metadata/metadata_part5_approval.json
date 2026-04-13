@@ -1,0 +1,381 @@
+{
+  "part5_approval": {
+
+    "cross_references": [
+      {
+        "file_id": "iea_pvps_country_updates_2025",
+        "located_in": "metadata_part3_policy.json",
+        "why_relevant_for_part5": "Documents Sarawak SET-P and Sabah ECoS operating independently — approval processes differ significantly from Peninsular Malaysia federal framework."
+      },
+      {
+        "file_id": "netr_part1_2023",
+        "located_in": "metadata_part3_policy.json",
+        "why_relevant_for_part5": "Sets federal RE targets that drive LSS programme approvals. NETR flagship projects have expedited approval pathways not available to standard developers."
+      },
+      {
+        "file_id": "dnp_law_solar_legal_requirements_2025",
+        "located_in": "metadata_part5_approval.json",
+        "why_relevant_for_part6": "Contains US anti-dumping tariff data (21-271%) on Malaysian solar panels — key Unknown Unknown for investment risk assessment."
+      }
+    ],
+
+    "files": [
+
+      {
+        "file_id": "mida_environmental_management_2021",
+        "filename": "mida_environmental_management_2021.pdf",
+
+        "source": {
+          "organization": "Malaysian Investment Development Authority (MIDA)",
+          "type": "government_official",
+          "url": "https://www.mida.gov.my/wp-content/uploads/2023/11/Booklet-7-Environmental-Management-2021.pdf",
+          "date_published": "2021-01-01",
+          "date_fetched": "2026-04-11",
+          "format": "investor_guide",
+          "peer_reviewed": false
+        },
+
+        "content": {
+          "title": "Environmental Management Services — Malaysia: Investment in the Services Sector (Booklet 7)",
+          "programme": null,
+          "doc_type": "investor_guide",
+          "language": "english",
+          "coverage_years": "2021-",
+          "jurisdiction": "federal",
+          "legal_basis": ["EQA 1974", "EIA Order 2015", "EIA Guidelines 2016"],
+          "approval_type": ["EIA", "written_permission", "investment_licence"],
+          "foreign_ownership_cap_pct": null,
+          "key_data": {
+            "eia_schedules": 2,
+            "preliminary_eia_copies_required": 12,
+            "detailed_eia_copies_required": 35,
+            "esco_equity_condition": "none — joint venture encouraged but not mandatory",
+            "green_technology_incentive_expiry": "2023-12-31"
+          },
+          "summary": "MIDA's official investor guide to Malaysia's environmental approval requirements. Covers EIA obligations under EQA 1974 and EIA Order 2015, written permission process, and DOE approval procedures. References EIA Guidelines 2016 as operative framework. Designed specifically for foreign investors entering Malaysia's environmental services and green technology sector."
+        },
+
+        "rag": {
+          "dimension": ["approval"],
+          "region": ["peninsular", "federal"],
+          "status": "active",
+          "priority": "high",
+          "doc_role": "current_overview",
+          "use_for": [
+            "eia_process",
+            "foreign_investment_rules",
+            "approval_timeline",
+            "investment_context"
+          ],
+          "warning": null,
+          "unknown_unknown_flag": false,
+          "legal_risk_level": "low"
+        }
+      },
+
+      {
+        "file_id": "doe_eia_guidelines_2016",
+        "filename": "doe_eia_guidelines_2016.pdf",
+
+        "source": {
+          "organization": "Department of Environment (DOE), Malaysia",
+          "type": "government_official",
+          "url": "https://www.doe.gov.my/en/environmental-impact-assessment-eia-guidelines-in-malaysia-2016-2/",
+          "date_published": "2016-01-01",
+          "date_fetched": "2026-04-11",
+          "format": "official_guideline",
+          "peer_reviewed": false
+        },
+
+        "content": {
+          "title": "Environmental Impact Assessment (EIA) Guidelines in Malaysia 2016",
+          "programme": null,
+          "doc_type": "regulatory_guidelines",
+          "language": "english",
+          "coverage_years": "2016-",
+          "jurisdiction": "federal",
+          "legal_basis": ["EQA 1974", "EIA Order 2015"],
+          "approval_type": ["EIA"],
+          "eia_schedule": ["first", "second"],
+          "public_display_required": true,
+          "key_data": {
+            "first_schedule_submission": "DOE State Office",
+            "second_schedule_submission": "DOE Headquarters",
+            "eiatrc_composition": "DOE officers + government agencies + appointed individuals + NGOs",
+            "post_approval_requirements": ["EMP", "compliance_monitoring", "impact_monitoring", "3rd_party_audit"],
+            "self_regulation_introduced": true
+          },
+          "summary": "Official current EIA guidelines prescribed by the Director General of Environmental Quality. Covers two-schedule EIA structure, submission procedures, public display requirements, Environmental Management Plan, and post-approval compliance monitoring. Primary procedural reference for any project requiring EIA approval in Malaysia. Last updated 2016, currently under review following EQA Amendment 2024."
+        },
+
+        "rag": {
+          "dimension": ["approval"],
+          "region": ["peninsular", "sabah", "federal"],
+          "status": "active",
+          "priority": "high",
+          "doc_role": "current_regulation",
+          "use_for": [
+            "eia_process",
+            "public_participation",
+            "approval_timeline",
+            "site_selection_risk"
+          ],
+          "warning": null,
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "EQA was amended in 2024 with stricter EIA requirements — the 2016 guidelines have not yet been updated to reflect the amendment. Developers should verify current DOE requirements directly as the guidelines may be partially outdated.",
+          "amendment_year": 2024,
+          "legal_risk_level": "medium"
+        }
+      },
+
+      {
+        "file_id": "fig_solar_land_approval_johor",
+        "filename": "fig_solar_land_approval_johor.pdf",
+
+        "source": {
+          "organization": "FIG (International Federation of Surveyors)",
+          "type": "research_institution",
+          "url": "https://www.fig.net/resources/proceedings/fig_proceedings/fig2020/papers/ts08f/TS08F_rohani_sahid_et_al_10331.pdf",
+          "date_published": "2020-05-01",
+          "date_fetched": "2026-04-11",
+          "author": "Azmi Rohani, Mohd Shahrizan Sahid, Suhailizan Suliman et al.",
+          "format": "research_paper",
+          "peer_reviewed": true
+        },
+
+        "content": {
+          "title": "Challenges and Practises in the Land Administration of Solar Farming Development in Johor, Malaysia",
+          "programme": "LSS",
+          "doc_type": "research_report",
+          "language": "english",
+          "coverage_years": "2020",
+          "jurisdiction": "state",
+          "applicable_states": ["johor"],
+          "legal_basis": ["National Land Code 1965", "Federal Constitution Article 74", "Johor Land Rules 1966"],
+          "approval_type": ["land_conversion", "special_permit"],
+          "land_tenure": "special_permit",
+          "special_permit_tenure_years": 25,
+          "annual_renewal_required": true,
+          "prescribed_activity": false,
+          "key_data": {
+            "special_permit_legal_basis": "Section 115(4)(f)(g) NLC + Johor Land Rules",
+            "special_permit_fee_benchmark": "RM80 per 100 sqm per annum (telecom tower benchmark)",
+            "permit_renewal": "annual — must be paid every year for up to 25 years",
+            "permit_revocation_risk": "immediate revocation without compensation if conditions violated",
+            "state_variation": "each state has different land rules — no uniform national process"
+          },
+          "summary": "Real case study of solar farm land approval process in Johor. Documents how each Malaysian state applies different land rules under Federal Constitution Article 74 — no uniform national approval process exists. Johor uses Special Permit under Section 115(4) NLC as benchmark, with annual renewal fees creating ongoing financial obligations. Key finding: fee structure designed for telecom towers is applied to solar farms without appropriate adjustment."
+        },
+
+        "rag": {
+          "dimension": ["approval"],
+          "region": ["peninsular"],
+          "applicable_states": ["johor"],
+          "status": "active",
+          "priority": "medium",
+          "doc_role": "current_overview",
+          "use_for": [
+            "land_conversion_process",
+            "state_land_rules",
+            "site_selection_risk",
+            "approval_timeline",
+            "investment_context"
+          ],
+          "warning": null,
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "No uniform national land approval process for solar farms — each state applies different rules under Federal Constitution Article 74. Special Permit requires annual renewal and can be revoked immediately without compensation. Fee structure inherited from telecom tower approvals is financially unfavourable for solar developers.",
+          "legal_risk_level": "high"
+        }
+      },
+
+      {
+        "file_id": "elaw_malaysia_eia_guidelines",
+        "filename": "elaw_malaysia_eia_guidelines.pdf",
+
+        "source": {
+          "organization": "ELAW (Environmental Law Alliance Worldwide)",
+          "type": "research_institution",
+          "url": "https://elaw.org/elm/malaysia",
+          "date_published": "2025-10-01",
+          "date_fetched": "2026-04-11",
+          "format": "eia_law_summary",
+          "peer_reviewed": false
+        },
+
+        "content": {
+          "title": "Malaysia — EIA Legal Framework (ELAW EIA Law Matrix)",
+          "programme": null,
+          "doc_type": "research_report",
+          "language": "english",
+          "coverage_years": "2025",
+          "jurisdiction": "federal",
+          "legal_basis": ["EQA 1974", "EQA Amendment 2024", "EIA Order 2015"],
+          "approval_type": ["EIA"],
+          "amendment_year": 2024,
+          "public_display_required": true,
+          "key_data": {
+            "eqa_last_amended": 2024,
+            "eia_tracks": ["preliminary", "detailed"],
+            "screening_authority": "government",
+            "public_participation": "required for Detailed EIA only",
+            "judicial_review": "available",
+            "stricter_requirements_post_2024": true
+          },
+          "summary": "Most current English-language summary of Malaysia's EIA legal framework, updated to reflect Environmental Quality Amendment Act 2024. Covers legal basis, two-track EIA system, public participation requirements, and judicial enforcement. The 2024 amendment introduced stricter EIA requirements and enhanced DOE enforcement powers — this is the only source that explicitly documents the post-amendment framework in accessible English."
+        },
+
+        "rag": {
+          "dimension": ["approval"],
+          "region": ["peninsular", "sabah", "federal"],
+          "status": "active",
+          "priority": "high",
+          "doc_role": "current_overview",
+          "use_for": [
+            "eia_process",
+            "public_participation",
+            "approval_timeline",
+            "foreign_investment_rules",
+            "site_selection_risk"
+          ],
+          "warning": null,
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "EQA Amendment 2024 introduced stricter EIA requirements and significantly increased penalties for violations. Projects approved under pre-2024 framework may need to be reassessed. DOE now has enhanced authority for immediate enforcement action.",
+          "legal_risk_level": "medium"
+        }
+      },
+
+      {
+        "file_id": "dnp_law_solar_legal_requirements_2025",
+        "filename": "dnp_law_solar_legal_requirements_2025.pdf",
+
+        "source": {
+          "organization": "D&P Law Group, Malaysia",
+          "type": "research_institution",
+          "url": "https://dnplawgroup.com/article/solar-energy-in-malaysia-legal-requirements-for-foreign-investors",
+          "date_published": "2025-04-16",
+          "date_fetched": "2026-04-11",
+          "author": "D&P Law Group",
+          "law_firm": "D&P Law Group",
+          "format": "legal_analysis",
+          "peer_reviewed": false
+        },
+
+        "content": {
+          "title": "Solar Energy in Malaysia: Legal Requirements for Foreign Investors",
+          "programme": "LSS5 / Solar ATAP",
+          "doc_type": "research_report",
+          "language": "english",
+          "coverage_years": "2025",
+          "jurisdiction": "federal",
+          "legal_basis": ["NLC 1965", "EQA 1974", "Electricity Supply Act 1990", "MIDA Guidelines"],
+          "approval_type": ["investment_licence", "land_conversion", "EIA"],
+          "foreign_ownership_cap_pct": 49,
+          "bumiputera_requirement_pct": 100,
+          "equity_requirement": "bumiputera_100_for_lss5_package1 / malaysian_51_for_other_lss",
+          "us_antidumping_tariff_pct_range": "21-271",
+          "key_data": {
+            "lss5_package1_capacity_range_mw": "1-10",
+            "lss5_package1_equity": "100% Bumiputera",
+            "lss5_other_packages_equity": "51% Malaysian minimum",
+            "us_antidumping_tariff_range": "21-271%",
+            "us_countervailing_duties": "applicable",
+            "land_classification_solar": "industrial",
+            "land_conversion_required": true,
+            "foreign_investor_vehicle": "joint venture with Malaysian partner recommended"
+          },
+          "summary": "April 2025 legal analysis of solar investment requirements for foreign investors. Documents Bumiputera 100% equity requirement for LSS5 Package 1 (1-10MW), 51% Malaysian equity for other LSS packages, land conversion obligations, and US anti-dumping tariffs (21-271%) on Malaysian solar panels. Most comprehensive single source for foreign investor legal constraints."
+        },
+
+        "rag": {
+          "dimension": ["approval", "unknown"],
+          "region": ["peninsular", "federal"],
+          "status": "active",
+          "priority": "high",
+          "doc_role": "current_overview",
+          "use_for": [
+            "foreign_investment_rules",
+            "bumiputera_requirements",
+            "land_conversion_process",
+            "us_tariff_impact",
+            "lss_application_process",
+            "investment_context"
+          ],
+          "warning": null,
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "LSS5 Package 1 (1-10MW) requires 100% Bumiputera equity — foreign investors are completely excluded from this package. US anti-dumping tariffs of 21-271% on Malaysian solar panels have significantly increased module costs for export-oriented projects. Neither restriction appears prominently in official SEDA or ST programme documents.",
+          "legal_risk_level": "high"
+        }
+      },
+
+      {
+        "file_id": "agv_solar_eia_case_study_gopeng",
+        "filename": "agv_solar_eia_case_study_gopeng.pdf",
+
+        "source": {
+          "organization": "AGV Environment, Malaysia",
+          "type": "research_institution",
+          "url": "https://www.agvenvironment.com/solar-energy-project-eia/",
+          "date_published": "2022-04-18",
+          "date_fetched": "2026-04-11",
+          "author": "Steve, AGV Environment",
+          "format": "eia_case_study",
+          "peer_reviewed": false
+        },
+
+        "content": {
+          "title": "Solar Energy Project EIA — Gopeng, Perak Case Study",
+          "programme": "LSS",
+          "doc_type": "research_report",
+          "language": "english",
+          "coverage_years": "2021-2022",
+          "jurisdiction": "state",
+          "applicable_states": ["perak"],
+          "legal_basis": ["EQA 1974", "EIA Order 2015"],
+          "approval_type": ["EIA"],
+          "prescribed_activity": false,
+          "eia_track": "detailed",
+          "eia_schedule": "first",
+          "site_sensitivity": "environmentally_sensitive_area",
+          "land_tenure": "leasehold",
+          "approval_timeline_months": 4,
+          "public_display_required": true,
+          "key_data": {
+            "project_capacity_mw": 50,
+            "site_area_ha": 114.81,
+            "site_type": "matured oil palm estate",
+            "river_adjacency": true,
+            "esa_transect": true,
+            "overhead_cable_km": 15,
+            "substation": "TNB Kampar main intake substation",
+            "eia_classification": "industrial estate development + power generation and transmission",
+            "prescribed_activity_under_eia_order_2015": false,
+            "eia_required_by_doe": true,
+            "approval_timeline_months": 4,
+            "community_opposition": false
+          },
+          "summary": "Only publicly available real solar farm EIA case study in Malaysia. Key finding: solar farm is NOT listed as a prescribed activity under EIA Order 2015, yet DOE Perak required EIA submission, classifying it under industrial estate development and power generation categories. 50MW project on 114.81ha oil palm estate. EIA approval obtained within 4 months. Environmentally sensitive area transected by overhead cables was key approval risk factor."
+        },
+
+        "rag": {
+          "dimension": ["approval"],
+          "region": ["peninsular"],
+          "applicable_states": ["perak"],
+          "status": "active",
+          "priority": "high",
+          "doc_role": "current_overview",
+          "use_for": [
+            "eia_process",
+            "site_selection_risk",
+            "approval_timeline",
+            "public_participation"
+          ],
+          "warning": null,
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "Solar farm is NOT a prescribed activity under EIA Order 2015 — yet DOE can and does require EIA by classifying it under industrial estate or power generation categories. This creates unpredictable approval requirements that vary by DOE state office interpretation. Developers cannot assume EIA is not required simply because solar is not explicitly listed.",
+          "legal_risk_level": "high"
+        }
+      }
+
+    ]
+  }
+}

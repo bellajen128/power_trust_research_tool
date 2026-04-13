@@ -1,0 +1,2698 @@
+{
+  "part1_cost_economics": {
+    "cross_references": [
+      {
+        "file_id": "bnef_malaysia_techno_economic_2025",
+        "located_in": "metadata_part3_policy.json",
+        "why_relevant_for_part1": "BloombergNEF techno-economic analysis of Malaysia's power generation. Solar PV is the cheapest new generation source at $33-61/MWh, below CCGT ($78-89..."
+      },
+      {
+        "file_id": "ember_solar_grid_flexibility_2024",
+        "located_in": "metadata_part3_policy.json",
+        "why_relevant_for_part1": "Ember's regional analysis of Malaysia's solar cost competitiveness and grid flexibility needs. Compares solar generation costs against coal and gas ac..."
+      }
+    ],
+    "files": [
+      {
+        "file_id": "irena_malaysia_energy_transition_2023",
+        "filename": "irena_malaysia_energy_transition_2023.pdf",
+        "source": {
+          "organization": "International Renewable Energy Agency (IRENA)",
+          "type": "international_organisation",
+          "url": "https://www.irena.org/Publications/2023/Mar/Malaysia-energy-transition-outlook",
+          "date_published": "2023-03-09",
+          "date_fetched": "2026-04-11"
+        },
+        "content": {
+          "title": "Malaysia Energy Transition Outlook 2023",
+          "programme": "LSS / NEM / FiT / NETR",
+          "doc_type": "policy_report",
+          "language": "english",
+          "coverage_years": "2018-2050",
+          "key_data": {
+            "solar_pv_target_gw_by_2050": 150,
+            "re_share_target_2050_pct": 50,
+            "total_investment_required_usd_billion": 375,
+            "annual_savings_by_2050_usd_billion_low": 9,
+            "annual_savings_by_2050_usd_billion_high": 13,
+            "lss_lowest_bid_price_history_included": true,
+            "grid_investment_pct_of_total": 70,
+            "energy_intensity_reduction_target_pct": 45
+          },
+          "summary": "IRENA's comprehensive Malaysia Energy Transition Outlook covering long-term pathway to 2050. Includes historical LSS auction bid price trends (2016-2020), electricity tariff structure before and after Incentive-Based Regulation, regional electricity price comparison for business sector, and grid integration challenges. Identifies solar PV as the key technology requiring up to 150GW by 2050. Co-published with Malaysia's Ministry of Natural Resources."
+        },
+        "rag": {
+          "dimension": [
+            "cost",
+            "utility",
+            "policy"
+          ],
+          "region": [
+            "peninsular",
+            "sabah",
+            "sarawak",
+            "federal"
+          ],
+          "status": "active",
+          "priority": "high",
+          "doc_role": "cost_and_policy_reference",
+          "use_for": [
+            "LCOE_reference",
+            "LSS_tariff_history",
+            "investment_context",
+            "long_term_policy",
+            "grid_capacity"
+          ],
+          "warning": "Published 2023 — some programme details (NEM, ATAP) may be outdated. Use SEDA and IEA-PVPS 2025 sources for current programme status.",
+          "unknown_unknown_flag": false,
+          "warning_type": "outdated"
+        }
+      },
+      {
+        "file_id": "mordor_malaysia_solar_market_2026",
+        "filename": "mordor_malaysia_solar_market_2026.html",
+        "source": {
+          "organization": "Mordor Intelligence",
+          "type": "market_research",
+          "url": "https://www.mordorintelligence.com/industry-reports/malaysia-solar-energy-market",
+          "date_published": "2026-01-14",
+          "date_fetched": "2026-04-11"
+        },
+        "content": {
+          "title": "Solar Energy in Malaysia Market — Size, Share & Industry Analysis",
+          "programme": "LSS / NEM / ATAP",
+          "doc_type": "market_report",
+          "language": "english",
+          "coverage_years": "2024-2030",
+          "key_data": {
+            "lss5_avg_tariff_rm_kwh": 0.1699,
+            "lss5_capacity_awarded_gw": 2,
+            "lss5_year": 2024,
+            "lss_petra5_plus_capacity_gw": 2,
+            "lss_petra5_plus_year": 2025,
+            "market_cagr_pct_through_2030": 34.5,
+            "solar_share_of_installed_capacity_pct_2024": 100,
+            "total_installed_capacity_mw_end_2024": 2306,
+            "irradiance_kwh_m2_day_low": 4.5,
+            "irradiance_kwh_m2_day_high": 5.5,
+            "capacity_factor_mwh_per_kwp_low": 1.2,
+            "capacity_factor_mwh_per_kwp_high": 1.5
+          },
+          "summary": "Mordor Intelligence market overview of Malaysia's solar energy sector. Key data: LSS5 awarded 2GW in 2024 at average RM0.1699/kWh, with LSS PETRA 5+ targeting another 2GW in 2025. Market projected at 34.5% CAGR through 2030. Includes irradiance data (4.5-5.5 kWh/m²/day), capacity factor benchmarks (1.2-1.5 MWh/kWp/year), and competitive landscape with JinkoSolar and LONGi local assembly operations."
+        },
+        "rag": {
+          "dimension": [
+            "cost",
+            "utility"
+          ],
+          "region": [
+            "peninsular",
+            "federal"
+          ],
+          "status": "active",
+          "priority": "medium",
+          "doc_role": "market_benchmark",
+          "use_for": [
+            "LSS_tariff_reference",
+            "market_sizing",
+            "investment_context",
+            "irradiance_data"
+          ],
+          "warning": "Partial content only — full report requires paid subscription. Key numbers (LSS5 tariff, capacity figures) available in free preview. Cross-reference with SEDA official sources for authoritative figures.",
+          "unknown_unknown_flag": false,
+          "warning_type": "outdated"
+        }
+      },
+      {
+        "file_id": "progressture_capex_2024",
+        "filename": "progressture_capex_2024.html",
+        "source": {
+          "organization": "Progressture Solar",
+          "type": "industry_installer",
+          "url": "https://www.progressturesolar.com/post/solar-panels-installation-in-malaysia",
+          "date_published": "2024-01-01",
+          "date_fetched": "2026-04-11"
+        },
+        "content": {
+          "title": "Solar Panel Installation Cost in Malaysia — Commercial CAPEX Benchmark",
+          "programme": "NEM / ATAP / SELCO",
+          "doc_type": "industry_pricing",
+          "language": "english",
+          "coverage_years": "2024",
+          "key_data": {
+            "capex_500kwp_rm_per_kwp": 2100,
+            "capex_1mwp_rm_total": 1800000,
+            "capex_1mwp_usd_approx": 400000,
+            "system_sizes_covered": [
+              "10kWp",
+              "30kWp",
+              "100kWp",
+              "500kWp",
+              "1MWp"
+            ],
+            "installation_timeline_weeks": "6-8",
+            "payback_period_years_typical": "5-7",
+            "source_type": "registered_solar_provider"
+          },
+          "summary": "Real-world CAPEX pricing from a registered Malaysian solar installer (800+ completed projects). Provides market rate benchmarks across system sizes: 500kWp at approximately RM2,100/kWp and 1MWp total at RM1.8M. Used to cross-validate government LCOE benchmarks against actual installer market pricing. Note: installer pricing reflects competitive market including labour, equipment, and margin — not pure equipment cost."
+        },
+        "rag": {
+          "dimension": [
+            "cost"
+          ],
+          "region": [
+            "peninsular"
+          ],
+          "status": "active",
+          "priority": "medium",
+          "doc_role": "market_price_validation",
+          "use_for": [
+            "CAPEX_benchmark",
+            "installer_pricing",
+            "cross_validation"
+          ],
+          "warning": "Industry source, not government official. Prices reflect a single installer's market rates and may vary. Use to cross-check BNEF/IRENA CAPEX figures against real-world market pricing, not as standalone authoritative source.",
+          "unknown_unknown_flag": false,
+          "warning_type": "outdated"
+        }
+      },
+      {
+        "file_id": "iea_pvps_malaysia_2025",
+        "filename": "iea_pvps_malaysia_2025.html",
+        "source": {
+          "organization": "IEA-PVPS (International Energy Agency Photovoltaic Power Systems Programme)",
+          "type": "international_organisation",
+          "url": "https://iea-pvps.org/about-iea-pvps/members/malaysia/",
+          "date_published": "2025-04-01",
+          "date_fetched": "2026-04-11"
+        },
+        "content": {
+          "title": "IEA-PVPS Malaysia Country Overview 2025",
+          "programme": "FiT / NEM / LSS / SELCO / ATAP / CRESS / CREAM / CGPP / GTFS / SolaRIS",
+          "doc_type": "country_overview",
+          "language": "english",
+          "coverage_years": "2016-2025",
+          "key_data": {
+            "nem_quota_subscribed_pct": 87.71,
+            "nem_cumulative_capacity_mw": 2747.92,
+            "lss_cumulative_capacity_mw": 2237,
+            "fit_operational_capacity_mwac": 618.84,
+            "total_solar_capacity_mw": 5777.73,
+            "re_installed_capacity_pct_2025": 31,
+            "gtfs_allocation_rm_billion": 1,
+            "gtfs_expiry": "2025-12-31",
+            "module_price_trend": "low due to China oversupply",
+            "solar_atap_effective_date": "2026-01-01"
+          },
+          "summary": "Most comprehensive English-language overview of all Malaysia solar programmes as of 2025. Covers complete programme evolution from FiT (2011) through NEM 3.0 termination (June 2025) to Solar ATAP launch (January 2026). Documents CRESS (2024), CREAM, CGPP, GTFS 4.0 (RM1B until Dec 2025), and SolaRIS rebate. Explicitly notes Sarawak (SET-P) and Sabah (ECoS) operate under separate independent regulatory frameworks. Module prices remain low due to Chinese oversupply despite US tariffs."
+        },
+        "rag": {
+          "dimension": [
+            "cost",
+            "policy",
+            "utility",
+            "unknown"
+          ],
+          "region": [
+            "peninsular",
+            "sabah",
+            "sarawak",
+            "federal"
+          ],
+          "status": "active",
+          "priority": "high",
+          "doc_role": "current_programme_overview",
+          "use_for": [
+            "current_programme",
+            "programme_statistics",
+            "regional_comparison",
+            "investment_context",
+            "policy_history"
+          ],
+          "warning": null,
+          "warning_type": null,
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "Sarawak operates under SET-P and Sabah under ECoS — both independent from federal SEDA programmes. Federal ATAP and NEM do not apply in Sarawak. GTFS 4.0 expires December 2025 — developers applying after this date lose RM1B green financing access. Module price risk from US anti-dumping duties on Malaysian panels partially offset by Chinese oversupply."
+        }
+      }
+    ]
+  },
+  "part2_grid_access": [
+    {
+      "file_id": "tnb_malaysian_grid_code_2020",
+      "filename": "tnb_malaysian_grid_code_2020.pdf",
+      "source": {
+        "organization": "Tenaga Nasional Berhad (TNB) / Energy Commission Malaysia",
+        "type": "government_official",
+        "url": "https://www.tnb.com.my/assets/files/Malaysian_Grid_Code_2020.pdf",
+        "date_published": "2020-01-01",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "Grid Code for Peninsular Malaysia (Amendments) 2020",
+        "programme": null,
+        "doc_type": "technical_regulation",
+        "language": "english",
+        "coverage_years": "2011-2020",
+        "key_data": {
+          "enforced_since": "2011-01-01",
+          "latest_amendment": "2020",
+          "coverage": "Peninsular Malaysia only",
+          "applies_to": [
+            "generators",
+            "grid_system_operators",
+            "distribution_operators",
+            "large_consumers"
+          ],
+          "code_sections": [
+            "Planning Code",
+            "Connection Code",
+            "Operation Code",
+            "Scheduling and Dispatch Code"
+          ],
+          "voltage_levels": [
+            "132kV",
+            "275kV",
+            "500kV"
+          ]
+        },
+        "summary": "Official technical regulation governing all electricity supply activities in Peninsular Malaysia. Defines minimum technical, design and operational criteria for connecting to the grid. Covers planning, connection requirements, real-time operation, scheduling and dispatch. Enforced by Energy Commission since January 2011 with 2020 amendments. Applies only to Peninsular Malaysia — Sabah and Sarawak operate under separate grid codes."
+      },
+      "rag": {
+        "dimension": [
+          "grid"
+        ],
+        "region": [
+          "peninsular"
+        ],
+        "status": "active",
+        "priority": "high",
+        "doc_role": "technical_standard",
+        "use_for": [
+          "grid_connection_requirements",
+          "technical_compliance",
+          "connection_process"
+        ],
+        "warning": "Applies to Peninsular Malaysia only. Sabah governed by SESB rules; Sarawak governed by SEB under state authority.",
+        "unknown_unknown_flag": false,
+        "warning_type": "regional_scope"
+      }
+    },
+    {
+      "file_id": "tnb_dg_interconnection_guideline_2018",
+      "filename": "tnb_dg_interconnection_guideline_2018.pdf",
+      "source": {
+        "organization": "Tenaga Nasional Berhad (TNB)",
+        "type": "government_official",
+        "url": "https://www.mytnb.com.my/-/media/Project/TNB/myTNBportal/Documents/Guides-and-Booklets/Technical-Guideline-for-Interconnection-of-Distributed-Generator-to-Distribution-System-2018.pdf",
+        "date_published": "2018-01-01",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "Technical Guideline for Interconnection of Distributed Generator to Distribution System",
+        "programme": "NEM / FiT / LSS / SELCO",
+        "doc_type": "technical_guideline",
+        "language": "english",
+        "coverage_years": "2018-present",
+        "key_data": {
+          "nemas_threshold_kwp": 72,
+          "lv_connection_max_kwp": 72,
+          "mv_connection_min_kwp": 72,
+          "dg_penetration_limit_pct_feeder": 30,
+          "connection_types": [
+            "direct_LV",
+            "indirect_LV",
+            "direct_MV",
+            "indirect_MV"
+          ],
+          "power_quality_requirements_included": true,
+          "applies_to": [
+            "solar_PV",
+            "biomass",
+            "biogas",
+            "small_hydro"
+          ],
+          "coverage": "Peninsular Malaysia and Sabah (SESB)"
+        },
+        "summary": "TNB's technical guideline for connecting distributed generation systems to the distribution network. Defines the 72kWp threshold above which NEMAS (Network Impact Assessment Study) is mandatory. Specifies connection schemes for LV and MV networks, power quality requirements, protection relay settings, and DG penetration limits (30% per feeder). Covers both Peninsular Malaysia (TNB) and Sabah (SESB). Most important document for understanding actual grid connection process for distributed solar projects."
+      },
+      "rag": {
+        "dimension": [
+          "grid"
+        ],
+        "region": [
+          "peninsular",
+          "sabah"
+        ],
+        "status": "active",
+        "priority": "high",
+        "doc_role": "connection_process_reference",
+        "use_for": [
+          "grid_connection_requirements",
+          "NEMAS_process",
+          "technical_compliance",
+          "connection_timeline"
+        ],
+        "warning": "Published 2018 — superseded in part by SEDA ATAP Guidelines 2025 for assessment study procedures. Use this for technical specifications; use SEDA ATAP docs for current application process and fees.",
+        "unknown_unknown_flag": false,
+        "warning_type": "outdated"
+      }
+    },
+    {
+      "file_id": "tnb_investor_deck_2025",
+      "filename": "tnb_investor_deck_2025.pdf",
+      "source": {
+        "organization": "Tenaga Nasional Berhad (TNB)",
+        "type": "corporate_official",
+        "url": "https://www.tnb.com.my/assets/conference_materials/TNB_Investor_Deck_December_2025.pdf",
+        "date_published": "2025-12-01",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "TNB Investor Presentation — December 2025",
+        "programme": null,
+        "doc_type": "investor_presentation",
+        "language": "english",
+        "coverage_years": "2024-2025",
+        "key_data": {
+          "peninsular_saidi_minutes": 47.88,
+          "peninsular_retail_customers_million": 10.4,
+          "peninsular_distribution_network_km": 738028,
+          "peninsular_substations": 99374,
+          "total_tnb_gross_capacity_mw": 21041,
+          "smart_meters_installed_million": 4.57,
+          "nem_customers": 60860,
+          "grid_investment_rp4_rm_billion": 45,
+          "rp4_period": "2025-2027",
+          "hhfs_capacity_mw": 2500
+        },
+        "summary": "TNB's latest investor deck with official grid reliability statistics. Key metric: Peninsular Malaysia SAIDI of 47.88 minutes — critical for comparison against Sabah's 203-286 minutes. Documents RP4 grid investment of RM45 billion (2025-2027), 4.57 million smart meters deployed, 60,860 NEM customers, and 2,500MW Hybrid Hydro Floating Solar pipeline. Provides most current official data on grid scale and reliability."
+      },
+      "rag": {
+        "dimension": [
+          "grid",
+          "cost"
+        ],
+        "region": [
+          "peninsular",
+          "sabah"
+        ],
+        "status": "active",
+        "priority": "high",
+        "doc_role": "grid_statistics_reference",
+        "use_for": [
+          "grid_reliability",
+          "SAIDI_benchmark",
+          "grid_capacity",
+          "investment_context",
+          "NEM_statistics"
+        ],
+        "warning": null,
+        "unknown_unknown_flag": true,
+        "unknown_unknown_note": "Peninsular SAIDI of 47.88 minutes vs Sabah SAIDI of 203-286 minutes (from separate sources) — a 4-6x reliability gap not prominently disclosed in official policy documents. Developers planning projects in Sabah face significantly higher curtailment and outage risk.",
+        "warning_type": null
+      }
+    },
+    {
+      "file_id": "wikipedia_malaysia_electricity_sector",
+      "filename": "wikipedia_malaysia_electricity.html",
+      "source": {
+        "organization": "Wikipedia",
+        "type": "reference",
+        "url": "https://en.wikipedia.org/wiki/Electricity_sector_in_Malaysia",
+        "date_published": "2024-01-01",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "Electricity Sector in Malaysia — Wikipedia",
+        "programme": null,
+        "doc_type": "reference_overview",
+        "language": "english",
+        "coverage_years": "1990-2024",
+        "key_data": {
+          "independent_grids": 3,
+          "grid_names": [
+            "Peninsular Malaysia (TNB)",
+            "Sabah (SESB)",
+            "Sarawak (SEB)"
+          ],
+          "grid_interconnected": false,
+          "peninsular_frequency_hz": 50,
+          "tnb_ownership_pct_peninsular_td": 100,
+          "total_installed_capacity_mw_2024": 37422,
+          "renewable_share_pct_2024": 22,
+          "coal_share_pct": 43,
+          "gas_share_pct": 36
+        },
+        "summary": "Wikipedia overview of Malaysia's electricity sector structure. Documents the three independent and non-interconnected grids (Peninsular, Sabah, Sarawak) with separate utilities, regulators, and policies. Provides historical context, generation mix, and institutional structure. Useful for understanding why federal solar policies do not automatically apply in Sabah and Sarawak."
+      },
+      "rag": {
+        "dimension": [
+          "grid",
+          "utility"
+        ],
+        "region": [
+          "peninsular",
+          "sabah",
+          "sarawak",
+          "federal"
+        ],
+        "status": "active",
+        "priority": "medium",
+        "doc_role": "structural_overview",
+        "use_for": [
+          "grid_structure",
+          "institutional_context",
+          "regional_comparison"
+        ],
+        "warning": "Wikipedia — use for structural and historical context only. Cross-reference with official TNB, SEDA, and Energy Commission sources for regulatory and technical details.",
+        "unknown_unknown_flag": false,
+        "warning_type": "source_quality"
+      }
+    },
+    {
+      "file_id": "tnb_der_integration",
+      "filename": "tnb_der_integration.html",
+      "source": {
+        "organization": "Tenaga Nasional Berhad (TNB)",
+        "type": "corporate_official",
+        "url": "https://www.tnb.com.my/smart-grid/der-integration",
+        "date_published": "2024-01-01",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "Distributed Energy Resources (DER) Integration — TNB Smart Grid",
+        "programme": "NEM / LSS / ATAP",
+        "doc_type": "corporate_webpage",
+        "language": "english",
+        "coverage_years": "2024-2025",
+        "key_data": {
+          "dg_hosting_capacity_map_available": true,
+          "map_search_parameters": [
+            "capacity_MW",
+            "location",
+            "radius_km",
+            "DG_type"
+          ],
+          "der_types_supported": [
+            "solar_PV",
+            "biomass",
+            "biogas",
+            "small_hydro"
+          ],
+          "bess_pilot_capacity_kwp_solar": 500,
+          "bess_pilot_capacity_mwh": 1,
+          "hosting_capacity_map_status": "under_maintenance_as_of_april_2026"
+        },
+        "summary": "TNB's page on Distributed Energy Resources integration and the DG Hosting Capacity Map. The map allows developers to search grid connection availability by location, capacity, and DG type — critical for pre-feasibility assessment. As of April 2026 the map is under maintenance. Also documents BESS pilot projects and smart grid DER integration strategy."
+      },
+      "rag": {
+        "dimension": [
+          "grid"
+        ],
+        "region": [
+          "peninsular"
+        ],
+        "status": "active",
+        "priority": "medium",
+        "doc_role": "grid_capacity_tool_reference",
+        "use_for": [
+          "grid_connection_availability",
+          "hosting_capacity",
+          "pre_feasibility"
+        ],
+        "warning": "DG Hosting Capacity Map was under maintenance as of April 2026. Developers should check map availability directly at dghostingcapacity.tnb.com.my before relying on this for connection feasibility.",
+        "unknown_unknown_flag": false,
+        "warning_type": "availability"
+      }
+    },
+    {
+      "file_id": "tnb_data_analytics",
+      "filename": "tnb_data_analytics.html",
+      "source": {
+        "organization": "Tenaga Nasional Berhad (TNB)",
+        "type": "corporate_official",
+        "url": "https://www.tnb.com.my/smart-grid/data-analytics",
+        "date_published": "2025-03-31",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "TNB Smart Grid Data Analytics — Advanced Metering Infrastructure",
+        "programme": "NEM / AMI",
+        "doc_type": "corporate_webpage",
+        "language": "english",
+        "coverage_years": "2024-2025",
+        "key_data": {
+          "smart_meters_installed_total": 4571144,
+          "smart_meters_as_of_date": "2025-03-31",
+          "nem_prosumer_customers": 60860,
+          "ami_target_total_meters": 9100000,
+          "ami_deployment_regions_rp4": [
+            "Penang",
+            "Johor",
+            "Perak",
+            "Kedah",
+            "Selangor"
+          ],
+          "special_protection_schemes": 6,
+          "fault_location_accuracy_pct": 90
+        },
+        "summary": "TNB's smart grid data analytics page documenting Advanced Metering Infrastructure (AMI) deployment. Key statistics: 4.57 million smart meters installed as of March 2025 (target 9.1 million), 60,860 NEM prosumer customers feeding solar back to grid. AMI enables real-time monitoring of grid connection points relevant to distributed solar integration."
+      },
+      "rag": {
+        "dimension": [
+          "grid"
+        ],
+        "region": [
+          "peninsular"
+        ],
+        "status": "active",
+        "priority": "low",
+        "doc_role": "grid_statistics_supplement",
+        "use_for": [
+          "NEM_statistics",
+          "grid_monitoring",
+          "smart_grid_context"
+        ],
+        "warning": null,
+        "unknown_unknown_flag": false,
+        "warning_type": null
+      }
+    },
+    {
+      "file_id": "seda_atap_guidelines_2025",
+      "filename": "seda_atap_guidelines_2025.pdf",
+      "source": {
+        "organization": "SEDA Malaysia / Energy Commission (ST)",
+        "type": "government_official",
+        "url": "https://www.seda.gov.my/reportal/atap/",
+        "date_published": "2025-12-30",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "Guidelines of Solar Accelerated Transition Action Programme (Solar ATAP)",
+        "programme": "Solar ATAP",
+        "doc_type": "regulatory_guidelines",
+        "language": "english",
+        "version": "As of 30 December 2025",
+        "coverage_years": "2026-",
+        "key_data": {
+          "domestic_single_phase_max_kwac": 5,
+          "domestic_three_phase_max_kwac": 15,
+          "non_domestic_max_kw": 1000,
+          "non_domestic_capacity_limit": "100% of maximum demand",
+          "ccc_threshold_single_phase_kw": 5,
+          "ccc_threshold_three_phase_kw": 15,
+          "cas_threshold_min_kw": 72,
+          "cas_threshold_max_kw": 425,
+          "cas_fee_72_180kw_rm": 1000,
+          "cas_fee_180_425kw_rm": 5000,
+          "cas_fee_425kw_1mw_rm": 8000,
+          "pss_threshold": "HV Connection",
+          "pss_fee_rm": 15000,
+          "export_credit_mechanism": "SMP (System Marginal Price)",
+          "effective_date": "2026-01-01",
+          "quota": "none"
+        },
+        "summary": "Official SEDA guidelines for Solar ATAP effective January 2026. Defines complete application process, technical assessment requirements by system size, and export credit mechanism. Key threshold: systems above 72kW require Connection Assessment Study (CAS); HV connections require Power System Study (PSS). No quota restrictions — continuous programme replacing NEM. Export credit for non-domestic users based on System Marginal Price (SMP) rather than fixed retail rate."
+      },
+      "rag": {
+        "dimension": [
+          "grid",
+          "policy"
+        ],
+        "region": [
+          "peninsular"
+        ],
+        "status": "active",
+        "priority": "high",
+        "doc_role": "current_application_process",
+        "use_for": [
+          "grid_connection_requirements",
+          "application_process",
+          "assessment_fees",
+          "current_programme"
+        ],
+        "warning": "Applies to Peninsular Malaysia only. Sabah and Sarawak have separate programmes.",
+        "unknown_unknown_flag": false,
+        "warning_type": "regional_scope"
+      }
+    },
+    {
+      "file_id": "atap_assessment_study_form",
+      "filename": "atap_assessment_study_form.pdf",
+      "source": {
+        "organization": "SEDA Malaysia / Energy Commission (ST)",
+        "type": "government_official",
+        "url": "https://www.seda.gov.my/reportal/atap/",
+        "date_published": "2026-01-14",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "Solar ATAP Technical Assessment Study Application Form",
+        "programme": "Solar ATAP",
+        "doc_type": "application_form",
+        "language": "english",
+        "version": "Updated as of 14 January 2026",
+        "coverage_years": "2026-",
+        "key_data": {
+          "form_type": "CAS and CCC application",
+          "submitted_to": "TNB (Electricity Utility Company)",
+          "required_before": "Solar ATAP application submission",
+          "study_conducted_by": "EUC or appointed consultant"
+        },
+        "summary": "Official application form for Solar ATAP Technical Assessment Study (CAS/CCC). Submitted to TNB before applying for Solar ATAP. Study conducted by TNB or its appointed consultant to establish technical and safety requirements and determine connection feasibility. Most recently updated January 2026."
+      },
+      "rag": {
+        "dimension": [
+          "grid"
+        ],
+        "region": [
+          "peninsular"
+        ],
+        "status": "active",
+        "priority": "low",
+        "doc_role": "application_form",
+        "use_for": [
+          "application_process",
+          "grid_connection_requirements"
+        ],
+        "warning": null,
+        "unknown_unknown_flag": false,
+        "warning_type": null
+      }
+    },
+    {
+      "file_id": "seda_atap_pss_process_flow",
+      "filename": "seda_atap_pss_process_flow.pdf",
+      "source": {
+        "organization": "SEDA Malaysia / Energy Commission (ST)",
+        "type": "government_official",
+        "url": "https://www.seda.gov.my/reportal/atap/",
+        "date_published": "2025-12-31",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "Solar ATAP Technical Assessment Study Process Flow for PSS (Power System Study)",
+        "programme": "Solar ATAP",
+        "doc_type": "process_flowchart",
+        "language": "english",
+        "version": "As of 31 December 2025",
+        "coverage_years": "2026-",
+        "key_data": {
+          "applies_to": "HV Connection (High Voltage)",
+          "fee_rm": 15000,
+          "study_type": "Power System Study (PSS)",
+          "trigger": "projects requiring HV grid connection"
+        },
+        "summary": "Official process flow diagram for Power System Study (PSS) — the most demanding level of grid connection assessment required for High Voltage connections. Fee is RM15,000. Used for large commercial and industrial solar projects. Shows step-by-step workflow from application to TNB approval."
+      },
+      "rag": {
+        "dimension": [
+          "grid"
+        ],
+        "region": [
+          "peninsular"
+        ],
+        "status": "active",
+        "priority": "medium",
+        "doc_role": "process_reference",
+        "use_for": [
+          "grid_connection_requirements",
+          "large_project_process",
+          "application_timeline"
+        ],
+        "warning": null,
+        "unknown_unknown_flag": false,
+        "warning_type": null
+      }
+    },
+    {
+      "file_id": "seda_atap_ccc_cas_process_flow",
+      "filename": "seda_atap_ccc_cas_process_flow.pdf",
+      "source": {
+        "organization": "SEDA Malaysia / Energy Commission (ST)",
+        "type": "government_official",
+        "url": "https://www.seda.gov.my/reportal/atap/",
+        "date_published": "2025-12-31",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "Solar ATAP Technical Assessment Study Process Flow for CCC and CAS",
+        "programme": "Solar ATAP",
+        "doc_type": "process_flowchart",
+        "language": "english",
+        "version": "As of 31 December 2025",
+        "coverage_years": "2026-",
+        "key_data": {
+          "ccc_applies_to": "domestic systems: single phase >5kW, three phase >15kW",
+          "cas_applies_to": "non-domestic: 72kW to 1MW",
+          "cas_fee_tiers_rm": {
+            "72_to_180kw": 1000,
+            "180_to_425kw": 5000,
+            "425kw_to_1mw": 8000
+          },
+          "study_conducted_by": "TNB or appointed consultant"
+        },
+        "summary": "Official process flow diagram for Connection Confirmation Check (CCC) and Connection Assessment Study (CAS). CCC applies to domestic systems exceeding phase-specific thresholds. CAS applies to non-domestic systems 72kW-1MW with tiered fees (RM1,000 to RM8,000). Most relevant process document for typical commercial and industrial distributed solar projects. Shows complete step-by-step workflow."
+      },
+      "rag": {
+        "dimension": [
+          "grid"
+        ],
+        "region": [
+          "peninsular"
+        ],
+        "status": "active",
+        "priority": "high",
+        "doc_role": "process_reference",
+        "use_for": [
+          "grid_connection_requirements",
+          "application_process",
+          "assessment_fees",
+          "connection_timeline"
+        ],
+        "warning": null,
+        "unknown_unknown_flag": false,
+        "warning_type": null
+      }
+    },
+    {
+      "file_id": "renewablewatch_malaysia_grid_2024",
+      "filename": "renewablewatch_malaysia_grid_2024.html",
+      "source": {
+        "organization": "Renewable Watch",
+        "type": "industry_media",
+        "url": "https://renewablewatch.in/2024/03/05/transition-roadmap-malaysias-efforts-to-modernise-its-power-sector/",
+        "date_published": "2024-03-05",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "Transition Roadmap: Malaysia's Efforts to Modernise its Power Sector",
+        "programme": "NETR / Grid Modernisation",
+        "doc_type": "industry_analysis",
+        "language": "english",
+        "coverage_years": "2023-2025",
+        "key_data": {
+          "transmission_network_km": 34125,
+          "tnb_ownership_pct": 76,
+          "seb_sarawak_ownership_pct": 15,
+          "sesb_sabah_ownership_pct": 9,
+          "tnb_grid_investment_rp4_usd_billion": 10.3,
+          "re_target_2050_pct": 70,
+          "grid_operator_structure": "3 separate independent utilities"
+        },
+        "summary": "Industry analysis of Malaysia's grid modernisation roadmap. Key data: 34,125km total transmission network split across TNB (76%), SEB Sarawak (15%), and SESB Sabah (9%). Documents RM45 billion (USD10.3B) TNB grid investment 2025-2027 under RP4. Explains structural basis for why Malaysia's three grids remain independent and the governance implications for solar developers operating across regions."
+      },
+      "rag": {
+        "dimension": [
+          "grid"
+        ],
+        "region": [
+          "peninsular",
+          "sabah",
+          "sarawak",
+          "federal"
+        ],
+        "status": "active",
+        "priority": "medium",
+        "doc_role": "grid_structure_reference",
+        "use_for": [
+          "grid_structure",
+          "grid_ownership",
+          "investment_context",
+          "regional_comparison"
+        ],
+        "warning": "Industry media source — cross-reference with official TNB and Energy Commission data for authoritative figures.",
+        "unknown_unknown_flag": false,
+        "warning_type": "source_quality"
+      }
+    },
+    {
+      "file_id": "non_domestic_application_process",
+      "filename": "non_domestic_application_process.png",
+      "source": {
+        "organization": "SEDA Malaysia / Energy Commission (ST)",
+        "type": "government_official",
+        "url": "https://www.seda.gov.my/reportal/atap/",
+        "date_published": "2025-12-31",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "Solar ATAP Non-Domestic Technical Assessment Requirements Table",
+        "programme": "Solar ATAP",
+        "doc_type": "screenshot_table",
+        "language": "english",
+        "version": "As of 31 December 2025",
+        "coverage_years": "2026-",
+        "key_data": {
+          "table_type": "non_domestic_assessment_requirements",
+          "rows": [
+            {
+              "type": "N/A",
+              "capacity": "1kW-72kW",
+              "fee_rm": 0
+            },
+            {
+              "type": "CAS",
+              "capacity": "72kW-180kW",
+              "fee_rm": 1000
+            },
+            {
+              "type": "CAS",
+              "capacity": "180kW-425kW",
+              "fee_rm": 5000
+            },
+            {
+              "type": "CAS",
+              "capacity": "425kW-1MW",
+              "fee_rm": 8000
+            },
+            {
+              "type": "PSS",
+              "capacity": "HV Connection",
+              "fee_rm": 15000
+            }
+          ],
+          "domestic_single_phase_threshold_kw": 5,
+          "domestic_three_phase_threshold_kw": 15,
+          "domestic_fee_rm": 1000
+        },
+        "summary": "Screenshot of the official SEDA ATAP non-domestic technical assessment requirements table. Shows complete fee structure and assessment type by system capacity: no assessment for 1-72kW; CAS at RM1,000/5,000/8,000 for 72kW-1MW tiers; PSS at RM15,000 for HV connections. Also shows domestic thresholds (>5kW single phase, >15kW three phase at RM1,000). Key reference for grid connection cost estimation."
+      },
+      "rag": {
+        "dimension": [
+          "grid"
+        ],
+        "region": [
+          "peninsular"
+        ],
+        "status": "active",
+        "priority": "high",
+        "doc_role": "fee_reference_table",
+        "use_for": [
+          "assessment_fees",
+          "grid_connection_requirements",
+          "cost_estimation"
+        ],
+        "warning": "Screenshot format — not machine-readable. Key data extracted into key_data field above for RAG use. Verify against SEDA_ATAP_Guidelines.pdf for authoritative figures.",
+        "unknown_unknown_flag": false,
+        "warning_type": "format"
+      }
+    }
+  ],
+  "part3_policy": [
+    {
+      "file_id": "seda_nem_rakyat_gomen_nov2024",
+      "filename": "seda_nem_rakyat_gomen_nov2024.pdf",
+      "source": {
+        "organization": "SEDA Malaysia / Energy Commission (ST)",
+        "type": "government_official",
+        "url": "https://www.seda.gov.my/reportal/wp-content/uploads/2024/12/NEM-2024_Rakyat_2211.pdf",
+        "date_published": "2024-11-22",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "Guidelines for Solar PV Installation under NEM Rakyat and NEM GoMEn in Peninsular Malaysia",
+        "programme": "NEM Rakyat / NEM GoMEn",
+        "doc_type": "regulatory_guidelines",
+        "language": "english",
+        "version": "GP/ST/No.27/2021(Pin.2024)",
+        "coverage_years": "2021-2025",
+        "key_data": {
+          "nem_rakyat_total_quota_mw": 700,
+          "nem_gomen_total_quota_mw": 100,
+          "max_capacity_residential_kw": 12,
+          "credit_mechanism": "retail rate offset",
+          "tenure_years": 10
+        },
+        "summary": "Final version of NEM Rakyat (residential) and NEM GoMEn (government buildings) guidelines before programme termination in June 2025. Covers quota history across 6 amendment rounds from 2021 to 2024, billing structure, and eligibility criteria."
+      },
+      "rag": {
+        "dimension": "policy",
+        "region": [
+          "peninsular"
+        ],
+        "status": "terminated",
+        "end_date": "2025-06-30",
+        "replaced_by": "Solar ATAP",
+        "priority": "low",
+        "doc_role": "historical",
+        "use_for": [
+          "policy_history",
+          "NEM_vs_ATAP_comparison"
+        ],
+        "warning": "TERMINATED — NEM Rakyat and GoMEn ended June 2025. Use only for historical context or direct comparison with Solar ATAP. Do not use for current application guidance.",
+        "warning_type": "terminated",
+        "unknown_unknown_flag": false
+      }
+    },
+    {
+      "file_id": "seda_nem_nova_nov2024",
+      "filename": "seda_nem_nova_nov2024.pdf",
+      "source": {
+        "organization": "SEDA Malaysia / Energy Commission (ST)",
+        "type": "government_official",
+        "url": "https://www.seda.gov.my/reportal/wp-content/uploads/2024/12/NEM-2024_NOVA_2211.pdf",
+        "date_published": "2024-11-22",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "Guidelines for Solar PV Installation under NOVA Programme in Peninsular Malaysia",
+        "programme": "NOVA (Net Offsets Virtual Aggregation)",
+        "doc_type": "regulatory_guidelines",
+        "language": "english",
+        "version": "GP/ST/No.28/2021(Pin.2024)",
+        "coverage_years": "2021-2025",
+        "key_data": {
+          "nova_total_quota_mw": 1700,
+          "max_capacity_kw": 1000,
+          "credit_mechanism": "virtual aggregation across multiple premises",
+          "eligible_users": "commercial and industrial",
+          "tenure_years": 10
+        },
+        "summary": "Final version of NOVA guidelines before termination in June 2025. NOVA was the most complex NEM category, allowing C&I users to virtually aggregate energy offsets across multiple premises under same ownership. Quota expanded across 4 amendment rounds from 2021 to 2024."
+      },
+      "rag": {
+        "dimension": "policy",
+        "region": [
+          "peninsular"
+        ],
+        "status": "terminated",
+        "end_date": "2025-06-30",
+        "replaced_by": "Solar ATAP",
+        "priority": "low",
+        "doc_role": "historical",
+        "use_for": [
+          "policy_history",
+          "NEM_vs_ATAP_comparison"
+        ],
+        "warning": "TERMINATED — NOVA programme ended June 2025. Use only for historical context or direct comparison with Solar ATAP. Do not use for current application guidance.",
+        "warning_type": "terminated",
+        "unknown_unknown_flag": false
+      }
+    },
+    {
+      "file_id": "seda_solar_atap_contract_jan2026",
+      "filename": "seda_solar_atap_contract_jan2026.pdf",
+      "source": {
+        "organization": "SEDA Malaysia",
+        "type": "government_official",
+        "url": "https://www.seda.gov.my/reportal/wp-content/uploads/2026/01/Solar-ATAP-Contract.pdf",
+        "date_published": "2026-01-01",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "Solar Accelerated Transition Action Programme (Solar ATAP) Contract",
+        "programme": "Solar ATAP",
+        "doc_type": "contract_template",
+        "language": "english",
+        "version": "GP/ST/No.60/2025",
+        "coverage_years": "2026-",
+        "key_data": {
+          "quota": "none",
+          "domestic_single_phase_max_kwac": 5,
+          "domestic_three_phase_max_kwac": 15,
+          "non_domestic_max_kw": 1000,
+          "non_domestic_capacity_limit": "100% of maximum demand",
+          "export_credit_mechanism": "SMP (System Marginal Price)",
+          "tenure_years": 10,
+          "effective_date": "2026-01-01",
+          "application_platform": "atap.seda.gov.my"
+        },
+        "summary": "Official contract template for Solar ATAP, effective January 2026. Replaces all NEM programmes. Key improvements: no quota restrictions, continuous programme with no predetermined end date, higher capacity limits, SMP-based export credit for non-domestic users, extended to agricultural users."
+      },
+      "rag": {
+        "dimension": "policy",
+        "region": [
+          "peninsular"
+        ],
+        "status": "active",
+        "effective_date": "2026-01-01",
+        "priority": "high",
+        "doc_role": "current_regulation",
+        "use_for": [
+          "current_programme",
+          "application_process",
+          "contract_check",
+          "NEM_vs_ATAP_comparison"
+        ],
+        "warning": null,
+        "warning_type": null,
+        "unknown_unknown_flag": false
+      }
+    },
+    {
+      "file_id": "netr_part1_2023",
+      "filename": "netr_part1_2023.pdf",
+      "source": {
+        "organization": "Ministry of Economy, Malaysia",
+        "type": "government_official",
+        "url": "https://www.st.gov.my/en/contents/files/download/188/NETR_S3.pdf",
+        "date_published": "2023-07-27",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "National Energy Transition Roadmap (NETR) Part 1 — Flagship Catalyst Projects and Initiatives",
+        "programme": "NETR",
+        "doc_type": "policy_roadmap",
+        "language": "english",
+        "coverage_years": "2023-2050",
+        "key_data": {
+          "re_target_2025_pct": 31,
+          "re_target_2035_pct": 40,
+          "re_target_2050_pct": 70,
+          "net_zero_target": 2050,
+          "flagship_projects": 10,
+          "transition_levers": 6,
+          "ghg_reduction_mt_per_year": 10,
+          "total_investment_rm_billion": 25,
+          "jobs_created": 23000
+        },
+        "summary": "Part 1 of Malaysia's National Energy Transition Roadmap launched July 2023. Identifies 10 flagship catalyst projects across 6 levers: energy efficiency, renewable energy, hydrogen, bioenergy, green mobility, and CCUS. Sets legal basis for 70% RE by 2050 target and net-zero by 2050 commitment."
+      },
+      "rag": {
+        "dimension": "policy",
+        "region": [
+          "federal"
+        ],
+        "status": "active",
+        "effective_date": "2023-07-27",
+        "priority": "high",
+        "doc_role": "policy_direction",
+        "use_for": [
+          "RE_targets",
+          "investment_context",
+          "long_term_policy"
+        ],
+        "warning": null,
+        "warning_type": null,
+        "unknown_unknown_flag": false
+      }
+    },
+    {
+      "file_id": "netr_part2_2023",
+      "filename": "netr_part2_2023.pdf",
+      "source": {
+        "organization": "Ministry of Economy, Malaysia",
+        "type": "government_official",
+        "url": "https://www.st.gov.my/en/contents/files/download/188/NETR_S3.pdf",
+        "date_published": "2023-08-29",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "National Energy Transition Roadmap (NETR) Part 2 — Roadmap in Full",
+        "programme": "NETR",
+        "doc_type": "policy_roadmap",
+        "language": "english",
+        "coverage_years": "2023-2050",
+        "key_data": {
+          "transition_levers": 6,
+          "enablers": 5,
+          "energy_savings_target_2050_pct": 22,
+          "total_investment_rm_billion_by_2050": 1300,
+          "gdp_contribution_rm_billion": 220,
+          "green_jobs_by_2050": 310000
+        },
+        "summary": "Full NETR roadmap with 6 transition levers and 5 enablers. Covers TPA (Third Party Access) framework, solar parks, floating solar, green hydrogen, carbon pricing, ESCO platform, and grid modernisation. Defines Malaysia's complete regulatory reform agenda through 2050."
+      },
+      "rag": {
+        "dimension": "policy",
+        "region": [
+          "federal"
+        ],
+        "status": "active",
+        "effective_date": "2023-08-29",
+        "priority": "high",
+        "doc_role": "policy_direction",
+        "use_for": [
+          "RE_targets",
+          "investment_context",
+          "long_term_policy",
+          "grid_capacity"
+        ],
+        "warning": null,
+        "warning_type": null,
+        "unknown_unknown_flag": false
+      }
+    },
+    {
+      "file_id": "seda_annual_report_2023",
+      "filename": "seda_annual_report_2023.pdf",
+      "source": {
+        "organization": "SEDA Malaysia",
+        "type": "government_official",
+        "url": "https://www.seda.gov.my/wp-content/uploads/2025/04/SEDA-AR2023_ENG_FINAL_S.pdf",
+        "date_published": "2025-04-01",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "SEDA Malaysia Annual Report 2023",
+        "programme": "FiT / NEM / LSS / SELCO",
+        "doc_type": "annual_report",
+        "language": "english",
+        "coverage_years": "2011-2023",
+        "key_data": {
+          "fit_cumulative_capacity_mwac": 618.84,
+          "nem_cumulative_quota_mw": 3000,
+          "lss_cumulative_capacity_mw": 2237,
+          "total_solar_capacity_mw": 5777,
+          "report_year": 2023
+        },
+        "summary": "SEDA Malaysia's official annual report covering FiT, NEM, LSS, and SELCO programme history and statistics from 2011 to 2023. Best single source for the full 12-year policy evolution timeline. Includes capacity data, quota history, and programme milestones."
+      },
+      "rag": {
+        "dimension": "policy",
+        "region": [
+          "peninsular",
+          "sabah"
+        ],
+        "status": "active",
+        "priority": "high",
+        "doc_role": "policy_history",
+        "use_for": [
+          "policy_history",
+          "programme_statistics",
+          "investment_context"
+        ],
+        "warning": null,
+        "warning_type": null,
+        "unknown_unknown_flag": false
+      }
+    },
+    {
+      "file_id": "iea_pvps_country_updates_2025",
+      "filename": "iea_pvps_country_updates_2025.pdf",
+      "source": {
+        "organization": "IEA-PVPS (International Energy Agency Photovoltaic Power Systems Programme)",
+        "type": "international_organisation",
+        "url": "https://iea-pvps.org/wp-content/uploads/2025/04/PVPS_Annual_Report_2024_Country_Updates.pdf",
+        "date_published": "2025-04-01",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "IEA-PVPS Country Updates 2025 — Malaysia Chapter",
+        "programme": "FiT / NEM / LSS / SELCO / CRESS / CREAM / CGPP / GTFS",
+        "doc_type": "country_report",
+        "language": "english",
+        "coverage_years": "2024-2025",
+        "key_data": {
+          "nem_quota_subscribed_pct": 87.71,
+          "nem_cumulative_capacity_mw": 2747.92,
+          "lss_cumulative_capacity_mw": 2237,
+          "fit_operational_capacity_mwac": 618.84,
+          "total_solar_capacity_mw": 5777.73,
+          "re_installed_capacity_pct_2025": 31,
+          "gtfs_allocation_rm_billion": 1,
+          "gtfs_expiry": "2025-12-31"
+        },
+        "summary": "Most current IEA overview of all Malaysia solar programmes as of 2025 in English. Covers CRESS (2024), CREAM, CGPP, GTFS 4.0, SolaRIS rebate, and Sarawak SET-P. Explicitly documents Sarawak and Sabah operating under separate regulatory frameworks independent of federal programmes."
+      },
+      "rag": {
+        "dimension": [
+          "policy",
+          "utility",
+          "unknown"
+        ],
+        "region": [
+          "peninsular",
+          "sabah",
+          "sarawak",
+          "federal"
+        ],
+        "status": "active",
+        "priority": "high",
+        "doc_role": "current_overview",
+        "use_for": [
+          "current_programme",
+          "programme_statistics",
+          "regional_comparison",
+          "investment_context"
+        ],
+        "warning": null,
+        "warning_type": null,
+        "unknown_unknown_flag": true,
+        "unknown_unknown_note": "Sarawak operates under SET-P and Sabah under ECoS — both independent from federal SEDA programmes. Federal ATAP and NEM do not apply in Sarawak. Developers must check state-level frameworks separately."
+      }
+    },
+    {
+      "file_id": "bnef_malaysia_techno_economic_apr2025",
+      "filename": "bnef_malaysia_techno_economic_apr2025.pdf",
+      "source": {
+        "organization": "BloombergNEF",
+        "type": "research_institution",
+        "url": "https://assets.bbhub.io/professional/sites/24/Malaysia-A-Techno-Economic-Analysis-of-Power-Generation.pdf",
+        "date_published": "2025-04-09",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "Malaysia: A Techno-Economic Analysis of Power Generation",
+        "programme": null,
+        "doc_type": "research_report",
+        "language": "english",
+        "coverage_years": "2024-2025",
+        "key_data": {
+          "utility_solar_lcoe_usd_mwh_low": 33,
+          "utility_solar_lcoe_usd_mwh_high": 61,
+          "ccgt_lcoe_usd_mwh_low": 78,
+          "ccgt_lcoe_usd_mwh_high": 89,
+          "coal_lcoe_usd_mwh_low": 56,
+          "coal_lcoe_usd_mwh_high": 77,
+          "currency_basis": "real 2024 USD"
+        },
+        "summary": "BloombergNEF's techno-economic analysis of Malaysia's power generation landscape. Solar is the cheapest new generation source at $33-61/MWh, below CCGT and coal. Includes CAPEX benchmarks, cross-technology cost comparison, and long-term cost trajectory analysis."
+      },
+      "rag": {
+        "dimension": [
+          "cost",
+          "utility"
+        ],
+        "region": [
+          "peninsular",
+          "federal"
+        ],
+        "status": "active",
+        "priority": "high",
+        "doc_role": "cost_benchmark",
+        "use_for": [
+          "LCOE_reference",
+          "investment_context"
+        ],
+        "warning": null,
+        "warning_type": null,
+        "unknown_unknown_flag": false
+      }
+    },
+    {
+      "file_id": "ember_solar_grid_flexibility_oct2024",
+      "filename": "ember_solar_grid_flexibility_oct2024.pdf",
+      "source": {
+        "organization": "Ember",
+        "type": "research_institution",
+        "url": "https://ember-energy.org/latest-insights/solar-and-grid-flexibility-critical-for-malaysia/",
+        "date_published": "2024-08-07",
+        "date_fetched": "2026-04-11"
+      },
+      "content": {
+        "title": "Solar and Grid Flexibility Critical for Malaysia's Future Electricity Affordability and Security",
+        "programme": null,
+        "doc_type": "research_report",
+        "language": "english",
+        "coverage_years": "2024-2035",
+        "key_data": {
+          "peninsular_additional_solar_capacity_before_storage_gw": 2.4,
+          "sabah_lss_quota_mw": 150,
+          "peninsular_lss_quota_mw": 2060,
+          "sabah_solar_installed_mw": 60,
+          "sarawak_tariff_sen_kwh": 28.05,
+          "sabah_tariff_sen_kwh": 34.5,
+          "peninsular_tariff_sen_kwh": 40.0,
+          "peninsular_electricity_demand_share_pct": 74
+        },
+        "summary": "Ember's analysis of Malaysia's grid flexibility needs by region. Key findings: Peninsular Malaysia can absorb 2.4GW of additional solar before storage is needed; Sabah's LSS quota is only 150MW vs Peninsular's 2,060MW; regional tariff gap of 28-40 sen/kWh creates significant revenue differences across regions."
+      },
+      "rag": {
+        "dimension": "grid",
+        "region": [
+          "peninsular",
+          "sabah",
+          "sarawak"
+        ],
+        "status": "active",
+        "priority": "high",
+        "doc_role": "grid_analysis",
+        "use_for": [
+          "grid_capacity",
+          "regional_comparison",
+          "curtailment_risk",
+          "investment_context"
+        ],
+        "warning": null,
+        "warning_type": null,
+        "unknown_unknown_flag": true,
+        "unknown_unknown_note": "Sabah LSS quota only 150MW vs Peninsular 2,060MW — quota may already be exhausted. Regional tariff gap (28 vs 40 sen/kWh) means project revenue differs by 30%+ depending on region. Neither gap is visible in official policy documents."
+      }
+    }
+  ],
+  "part4_utility": {
+    "cross_references": [
+      {
+        "file_id": "iea_pvps_country_updates_2025",
+        "located_in": "metadata_part3_policy.json",
+        "why_relevant_for_part4": "Contains LSS1-5 cumulative capacity and auction results. Documents utility procurement mechanism as auction-based rather than RPO-based."
+      },
+      {
+        "file_id": "bnef_malaysia_techno_economic_apr2025",
+        "located_in": "metadata_part3_policy.json",
+        "why_relevant_for_part4": "LSS auction price trend data. Benchmarks utility-scale solar at $33-61/MWh against CCGT and coal."
+      },
+      {
+        "file_id": "netr_part1_2023",
+        "located_in": "metadata_part3_policy.json",
+        "why_relevant_for_part4": "Sets top-level RE procurement targets (31% by 2025, 70% by 2050) that drive utility obligations. Legal basis for LSS programme continuation."
+      },
+      {
+        "file_id": "netr_part2_2023",
+        "located_in": "metadata_part3_policy.json",
+        "why_relevant_for_part4": "Covers TPA framework and ENEGEM cross-border trading platform — directly shapes how utilities procure and dispatch renewable energy."
+      },
+      {
+        "file_id": "seda_annual_report_2023",
+        "located_in": "metadata_part3_policy.json",
+        "why_relevant_for_part4": "Contains LSS1-4 auction results, capacity awarded by round, and tariff history from 2016 to 2023."
+      },
+      {
+        "file_id": "ember_solar_grid_flexibility_oct2024",
+        "located_in": "metadata_part3_policy.json",
+        "why_relevant_for_part4": "Quantifies Peninsular Malaysia's remaining grid absorption capacity (2.4GW before storage needed) and Sabah's near-exhausted quota (150MW)."
+      }
+    ],
+    "files": [
+      {
+        "file_id": "st_lss_guidelines_connection_2026",
+        "filename": "st_lss_guidelines_connection_2026.pdf",
+        "source": {
+          "organization": "Energy Commission (Suruhanjaya Tenaga / ST), Malaysia",
+          "type": "government_official",
+          "url": "https://www.st.gov.my/sites/default/files/2026-02/Guidelines-on-Large-Scale-Solar-PV-Plant-for-Connection-to-Electricity-Network.pdf",
+          "date_published": "2026-02-01",
+          "date_fetched": "2026-04-11"
+        },
+        "content": {
+          "title": "Guidelines on Large Scale Solar Photovoltaic Plant for Connection to Electricity Networks",
+          "programme": "LSS (Large Scale Solar)",
+          "doc_type": "technical_guidelines",
+          "language": "english",
+          "coverage_years": "2026-",
+          "grid_region": [
+            "peninsular",
+            "sabah"
+          ],
+          "connection_type": [
+            "transmission",
+            "distribution"
+          ],
+          "key_data": {
+            "transmission_connected_threshold_mwac": 30,
+            "ppa_tenure_years": 21,
+            "sppa_counterparty": "TNB / SESB",
+            "maaq": "Maximum Annual Authorised Quantity — energy ceiling developer is paid for",
+            "pss_required": true,
+            "pss_threshold_kw": 180,
+            "licensing_authority": "Energy Commission (ST)",
+            "equity_requirement_malaysian_pct": 51
+          },
+          "summary": "Official technical guidelines for connecting LSS plants to Malaysia's electricity network. Covers grid connection requirements, power system study (PSS) obligations, SPPA structure, licensing process, potential injection points, and critical milestones to commercial operation date (COD). Primary reference for any developer planning a utility-scale solar project."
+        },
+        "rag": {
+          "dimension": [
+            "utility"
+          ],
+          "region": [
+            "peninsular",
+            "sabah"
+          ],
+          "status": "active",
+          "effective_date": "2026-02-01",
+          "priority": "high",
+          "doc_role": "current_regulation",
+          "use_for": [
+            "lss_application_process",
+            "grid_connection_process",
+            "utility_procurement",
+            "bess_requirements",
+            "capacity_planning",
+            "contract_check"
+          ],
+          "warning": null,
+          "warning_type": null,
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "51% Malaysian equity requirement applies to LSS PETRA Package 1 (1-10MW) — 100% Bumiputera required. Foreign investors must check package-specific ownership limits before applying. Not prominently stated in main guideline text."
+        }
+      },
+      {
+        "file_id": "tnb_sustainability_report_2024",
+        "filename": "tnb_sustainability_report_2024.pdf",
+        "source": {
+          "organization": "Tenaga Nasional Berhad (TNB)",
+          "type": "government_official",
+          "url": "https://www.tnb.com.my/assets/annual_report/TNB_Sustainability_Report_2024.pdf",
+          "date_published": "2024-12-31",
+          "date_fetched": "2026-04-11"
+        },
+        "content": {
+          "title": "TNB Sustainability Report 2024",
+          "programme": "HHFS / CRESS / LSS / MyBeST / ENEGEM",
+          "doc_type": "sustainability_report",
+          "language": "english",
+          "coverage_years": "2024",
+          "regulatory_period": "RP4 (2025-2027)",
+          "grid_region": [
+            "peninsular",
+            "sabah"
+          ],
+          "key_data": {
+            "grid_investment_rm_billion_2025_2027": 45,
+            "hhfs_target_capacity_mw": 2500,
+            "hhfs_first_commission_target": "2026",
+            "hhfs_location": "TNB hydro dam reservoirs",
+            "lss_parks_target_mw": 500,
+            "lss_parks_count": 5,
+            "cress_open_date": "2024-09-30",
+            "re_export_singapore_cap_mw": 300,
+            "interconnection_singapore_capacity_mw": 1000,
+            "smart_meter_rollout_target": "all OPC Peninsular Malaysia by 2027",
+            "net_zero_target": 2050
+          },
+          "summary": "TNB's Sustainability Report 2024 covering grid investment plans, RE procurement obligations, and energy transition progress. Key data: RM45 billion grid investment 2025-2027, 2,500MW HHFS roadmap, CRESS framework launch September 2024, 300MW RE export cap to Singapore despite 1GW interconnection capacity."
+        },
+        "rag": {
+          "dimension": [
+            "utility",
+            "grid"
+          ],
+          "region": [
+            "peninsular",
+            "sabah"
+          ],
+          "status": "active",
+          "priority": "high",
+          "doc_role": "current_overview",
+          "use_for": [
+            "utility_procurement",
+            "grid_investment",
+            "capacity_planning",
+            "cross_border_trading",
+            "bess_requirements",
+            "investment_context",
+            "RE_targets"
+          ],
+          "warning": null,
+          "warning_type": null,
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "RE export to Singapore is capped at 300MW despite a 1GW interconnection line being available — 70% of capacity is underutilised. CRESS wheeling fee to TNB is not yet clearly defined, creating financial uncertainty for RE developers selling to corporate buyers."
+        }
+      },
+      {
+        "file_id": "st_energy_statistics_handbook_2023",
+        "filename": "st_energy_statistics_handbook_2023.pdf",
+        "source": {
+          "organization": "Energy Commission (Suruhanjaya Tenaga / ST), Malaysia",
+          "type": "government_official",
+          "url": "https://www.st.gov.my/eng/general/add_counter/1011/download/read_count",
+          "date_published": "2023-12-31",
+          "date_fetched": "2026-04-11"
+        },
+        "content": {
+          "title": "Malaysia Energy Statistics Handbook 2023",
+          "programme": null,
+          "doc_type": "energy_statistics",
+          "language": "english",
+          "coverage_years": "2023",
+          "grid_region": [
+            "peninsular",
+            "sabah",
+            "sarawak",
+            "federal"
+          ],
+          "key_data": {
+            "peninsular_generation_capacity_mw": 26152,
+            "peninsular_energy_reserve_pct": 24,
+            "coal_share_pct": 49,
+            "gas_share_pct": 42,
+            "hydro_share_pct": 3.9,
+            "solar_share_pct": 2.4,
+            "re_installed_capacity_pct": 15,
+            "total_electricity_demand_twh": 131,
+            "demand_growth_rate_pct_2025_2027": 4.9,
+            "peninsular_transmission_lines_km": 34125,
+            "substations_count": 550
+          },
+          "summary": "Official annual energy statistics handbook for Malaysia. Contains generation capacity by fuel type, electricity demand data, RE installed capacity breakdown, tariff structure, and grid infrastructure data for Peninsular Malaysia, Sabah, and Sarawak. Essential numerical baseline for understanding Malaysia's current utility landscape and solar integration headroom."
+        },
+        "rag": {
+          "dimension": [
+            "utility",
+            "grid",
+            "cost"
+          ],
+          "region": [
+            "peninsular",
+            "sabah",
+            "sarawak",
+            "federal"
+          ],
+          "status": "active",
+          "priority": "high",
+          "doc_role": "current_overview",
+          "use_for": [
+            "tariff_structure",
+            "capacity_planning",
+            "grid_capacity",
+            "regional_comparison",
+            "programme_statistics",
+            "investment_context"
+          ],
+          "warning": null,
+          "warning_type": null,
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "Coal still dominates at 49% of generation despite 70% RE target by 2050. Solar contributes only 2.4% of actual dispatched electricity despite growing installed capacity — capacity factor gap (solar ~15% vs coal ~70%) is a key risk not highlighted in policy documents."
+        }
+      }
+    ]
+  },
+  "part5_approval": {
+    "cross_references": [
+      {
+        "file_id": "iea_pvps_country_updates_2025",
+        "located_in": "metadata_part3_policy.json",
+        "why_relevant_for_part5": "Documents Sarawak SET-P and Sabah ECoS operating independently — approval processes differ significantly from Peninsular Malaysia federal framework."
+      },
+      {
+        "file_id": "netr_part1_2023",
+        "located_in": "metadata_part3_policy.json",
+        "why_relevant_for_part5": "Sets federal RE targets that drive LSS programme approvals. NETR flagship projects have expedited approval pathways not available to standard developers."
+      },
+      {
+        "file_id": "dnp_law_solar_legal_requirements_2025",
+        "located_in": "metadata_part5_approval.json",
+        "why_relevant_for_part6": "Contains US anti-dumping tariff data (21-271%) on Malaysian solar panels — key Unknown Unknown for investment risk assessment."
+      }
+    ],
+    "files": [
+      {
+        "file_id": "mida_environmental_management_2021",
+        "filename": "mida_environmental_management_2021.pdf",
+        "source": {
+          "organization": "Malaysian Investment Development Authority (MIDA)",
+          "type": "government_official",
+          "url": "https://www.mida.gov.my/wp-content/uploads/2023/11/Booklet-7-Environmental-Management-2021.pdf",
+          "date_published": "2021-01-01",
+          "date_fetched": "2026-04-11",
+          "format": "investor_guide",
+          "peer_reviewed": false
+        },
+        "content": {
+          "title": "Environmental Management Services — Malaysia: Investment in the Services Sector (Booklet 7)",
+          "programme": null,
+          "doc_type": "investor_guide",
+          "language": "english",
+          "coverage_years": "2021-",
+          "jurisdiction": "federal",
+          "legal_basis": [
+            "EQA 1974",
+            "EIA Order 2015",
+            "EIA Guidelines 2016"
+          ],
+          "approval_type": [
+            "EIA",
+            "written_permission",
+            "investment_licence"
+          ],
+          "foreign_ownership_cap_pct": null,
+          "key_data": {
+            "eia_schedules": 2,
+            "preliminary_eia_copies_required": 12,
+            "detailed_eia_copies_required": 35,
+            "esco_equity_condition": "none — joint venture encouraged but not mandatory",
+            "green_technology_incentive_expiry": "2023-12-31"
+          },
+          "summary": "MIDA's official investor guide to Malaysia's environmental approval requirements. Covers EIA obligations under EQA 1974 and EIA Order 2015, written permission process, and DOE approval procedures. References EIA Guidelines 2016 as operative framework. Designed specifically for foreign investors entering Malaysia's environmental services and green technology sector."
+        },
+        "rag": {
+          "dimension": [
+            "approval"
+          ],
+          "region": [
+            "peninsular",
+            "federal"
+          ],
+          "status": "active",
+          "priority": "high",
+          "doc_role": "current_overview",
+          "use_for": [
+            "eia_process",
+            "foreign_investment_rules",
+            "approval_timeline",
+            "investment_context"
+          ],
+          "warning": null,
+          "warning_type": null,
+          "unknown_unknown_flag": false,
+          "legal_risk_level": "low"
+        }
+      },
+      {
+        "file_id": "doe_eia_guidelines_2016",
+        "filename": "doe_eia_guidelines_2016.pdf",
+        "source": {
+          "organization": "Department of Environment (DOE), Malaysia",
+          "type": "government_official",
+          "url": "https://www.doe.gov.my/en/environmental-impact-assessment-eia-guidelines-in-malaysia-2016-2/",
+          "date_published": "2016-01-01",
+          "date_fetched": "2026-04-11",
+          "format": "official_guideline",
+          "peer_reviewed": false
+        },
+        "content": {
+          "title": "Environmental Impact Assessment (EIA) Guidelines in Malaysia 2016",
+          "programme": null,
+          "doc_type": "regulatory_guidelines",
+          "language": "english",
+          "coverage_years": "2016-",
+          "jurisdiction": "federal",
+          "legal_basis": [
+            "EQA 1974",
+            "EIA Order 2015"
+          ],
+          "approval_type": [
+            "EIA"
+          ],
+          "eia_schedule": [
+            "first",
+            "second"
+          ],
+          "public_display_required": true,
+          "key_data": {
+            "first_schedule_submission": "DOE State Office",
+            "second_schedule_submission": "DOE Headquarters",
+            "eiatrc_composition": "DOE officers + government agencies + appointed individuals + NGOs",
+            "post_approval_requirements": [
+              "EMP",
+              "compliance_monitoring",
+              "impact_monitoring",
+              "3rd_party_audit"
+            ],
+            "self_regulation_introduced": true
+          },
+          "summary": "Official current EIA guidelines prescribed by the Director General of Environmental Quality. Covers two-schedule EIA structure, submission procedures, public display requirements, Environmental Management Plan, and post-approval compliance monitoring. Primary procedural reference for any project requiring EIA approval in Malaysia. Last updated 2016, currently under review following EQA Amendment 2024."
+        },
+        "rag": {
+          "dimension": [
+            "approval"
+          ],
+          "region": [
+            "peninsular",
+            "sabah",
+            "federal"
+          ],
+          "status": "active",
+          "priority": "high",
+          "doc_role": "current_regulation",
+          "use_for": [
+            "eia_process",
+            "public_participation",
+            "approval_timeline",
+            "site_selection_risk"
+          ],
+          "warning": null,
+          "warning_type": null,
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "EQA was amended in 2024 with stricter EIA requirements — the 2016 guidelines have not yet been updated to reflect the amendment. Developers should verify current DOE requirements directly as the guidelines may be partially outdated.",
+          "amendment_year": 2024,
+          "legal_risk_level": "medium"
+        }
+      },
+      {
+        "file_id": "fig_solar_land_approval_johor",
+        "filename": "fig_solar_land_approval_johor.pdf",
+        "source": {
+          "organization": "FIG (International Federation of Surveyors)",
+          "type": "research_institution",
+          "url": "https://www.fig.net/resources/proceedings/fig_proceedings/fig2020/papers/ts08f/TS08F_rohani_sahid_et_al_10331.pdf",
+          "date_published": "2020-05-01",
+          "date_fetched": "2026-04-11",
+          "author": "Azmi Rohani, Mohd Shahrizan Sahid, Suhailizan Suliman et al.",
+          "format": "research_paper",
+          "peer_reviewed": true
+        },
+        "content": {
+          "title": "Challenges and Practises in the Land Administration of Solar Farming Development in Johor, Malaysia",
+          "programme": "LSS",
+          "doc_type": "research_report",
+          "language": "english",
+          "coverage_years": "2020",
+          "jurisdiction": "state",
+          "applicable_states": [
+            "johor"
+          ],
+          "legal_basis": [
+            "National Land Code 1965",
+            "Federal Constitution Article 74",
+            "Johor Land Rules 1966"
+          ],
+          "approval_type": [
+            "land_conversion",
+            "special_permit"
+          ],
+          "land_tenure": "special_permit",
+          "special_permit_tenure_years": 25,
+          "annual_renewal_required": true,
+          "prescribed_activity": false,
+          "key_data": {
+            "special_permit_legal_basis": "Section 115(4)(f)(g) NLC + Johor Land Rules",
+            "special_permit_fee_benchmark": "RM80 per 100 sqm per annum (telecom tower benchmark)",
+            "permit_renewal": "annual — must be paid every year for up to 25 years",
+            "permit_revocation_risk": "immediate revocation without compensation if conditions violated",
+            "state_variation": "each state has different land rules — no uniform national process"
+          },
+          "summary": "Real case study of solar farm land approval process in Johor. Documents how each Malaysian state applies different land rules under Federal Constitution Article 74 — no uniform national approval process exists. Johor uses Special Permit under Section 115(4) NLC as benchmark, with annual renewal fees creating ongoing financial obligations. Key finding: fee structure designed for telecom towers is applied to solar farms without appropriate adjustment."
+        },
+        "rag": {
+          "dimension": [
+            "approval"
+          ],
+          "region": [
+            "peninsular"
+          ],
+          "applicable_states": [
+            "johor"
+          ],
+          "status": "active",
+          "priority": "medium",
+          "doc_role": "current_overview",
+          "use_for": [
+            "land_conversion_process",
+            "state_land_rules",
+            "site_selection_risk",
+            "approval_timeline",
+            "investment_context"
+          ],
+          "warning": null,
+          "warning_type": null,
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "No uniform national land approval process for solar farms — each state applies different rules under Federal Constitution Article 74. Special Permit requires annual renewal and can be revoked immediately without compensation. Fee structure inherited from telecom tower approvals is financially unfavourable for solar developers.",
+          "legal_risk_level": "high"
+        }
+      },
+      {
+        "file_id": "elaw_malaysia_eia_guidelines",
+        "filename": "elaw_malaysia_eia_guidelines.pdf",
+        "source": {
+          "organization": "ELAW (Environmental Law Alliance Worldwide)",
+          "type": "research_institution",
+          "url": "https://elaw.org/elm/malaysia",
+          "date_published": "2025-10-01",
+          "date_fetched": "2026-04-11",
+          "format": "eia_law_summary",
+          "peer_reviewed": false
+        },
+        "content": {
+          "title": "Malaysia — EIA Legal Framework (ELAW EIA Law Matrix)",
+          "programme": null,
+          "doc_type": "research_report",
+          "language": "english",
+          "coverage_years": "2025",
+          "jurisdiction": "federal",
+          "legal_basis": [
+            "EQA 1974",
+            "EQA Amendment 2024",
+            "EIA Order 2015"
+          ],
+          "approval_type": [
+            "EIA"
+          ],
+          "amendment_year": 2024,
+          "public_display_required": true,
+          "key_data": {
+            "eqa_last_amended": 2024,
+            "eia_tracks": [
+              "preliminary",
+              "detailed"
+            ],
+            "screening_authority": "government",
+            "public_participation": "required for Detailed EIA only",
+            "judicial_review": "available",
+            "stricter_requirements_post_2024": true
+          },
+          "summary": "Most current English-language summary of Malaysia's EIA legal framework, updated to reflect Environmental Quality Amendment Act 2024. Covers legal basis, two-track EIA system, public participation requirements, and judicial enforcement. The 2024 amendment introduced stricter EIA requirements and enhanced DOE enforcement powers — this is the only source that explicitly documents the post-amendment framework in accessible English."
+        },
+        "rag": {
+          "dimension": [
+            "approval"
+          ],
+          "region": [
+            "peninsular",
+            "sabah",
+            "federal"
+          ],
+          "status": "active",
+          "priority": "high",
+          "doc_role": "current_overview",
+          "use_for": [
+            "eia_process",
+            "public_participation",
+            "approval_timeline",
+            "foreign_investment_rules",
+            "site_selection_risk"
+          ],
+          "warning": null,
+          "warning_type": null,
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "EQA Amendment 2024 introduced stricter EIA requirements and significantly increased penalties for violations. Projects approved under pre-2024 framework may need to be reassessed. DOE now has enhanced authority for immediate enforcement action.",
+          "legal_risk_level": "medium"
+        }
+      },
+      {
+        "file_id": "dnp_law_solar_legal_requirements_2025",
+        "filename": "dnp_law_solar_legal_requirements_2025.pdf",
+        "source": {
+          "organization": "D&P Law Group, Malaysia",
+          "type": "research_institution",
+          "url": "https://dnplawgroup.com/article/solar-energy-in-malaysia-legal-requirements-for-foreign-investors",
+          "date_published": "2025-04-16",
+          "date_fetched": "2026-04-11",
+          "author": "D&P Law Group",
+          "law_firm": "D&P Law Group",
+          "format": "legal_analysis",
+          "peer_reviewed": false
+        },
+        "content": {
+          "title": "Solar Energy in Malaysia: Legal Requirements for Foreign Investors",
+          "programme": "LSS5 / Solar ATAP",
+          "doc_type": "research_report",
+          "language": "english",
+          "coverage_years": "2025",
+          "jurisdiction": "federal",
+          "legal_basis": [
+            "NLC 1965",
+            "EQA 1974",
+            "Electricity Supply Act 1990",
+            "MIDA Guidelines"
+          ],
+          "approval_type": [
+            "investment_licence",
+            "land_conversion",
+            "EIA"
+          ],
+          "foreign_ownership_cap_pct": 49,
+          "bumiputera_requirement_pct": 100,
+          "equity_requirement": "bumiputera_100_for_lss5_package1 / malaysian_51_for_other_lss",
+          "us_antidumping_tariff_pct_range": "21-271",
+          "key_data": {
+            "lss5_package1_capacity_range_mw": "1-10",
+            "lss5_package1_equity": "100% Bumiputera",
+            "lss5_other_packages_equity": "51% Malaysian minimum",
+            "us_antidumping_tariff_range": "21-271%",
+            "us_countervailing_duties": "applicable",
+            "land_classification_solar": "industrial",
+            "land_conversion_required": true,
+            "foreign_investor_vehicle": "joint venture with Malaysian partner recommended"
+          },
+          "summary": "April 2025 legal analysis of solar investment requirements for foreign investors. Documents Bumiputera 100% equity requirement for LSS5 Package 1 (1-10MW), 51% Malaysian equity for other LSS packages, land conversion obligations, and US anti-dumping tariffs (21-271%) on Malaysian solar panels. Most comprehensive single source for foreign investor legal constraints."
+        },
+        "rag": {
+          "dimension": [
+            "approval",
+            "unknown"
+          ],
+          "region": [
+            "peninsular",
+            "federal"
+          ],
+          "status": "active",
+          "priority": "high",
+          "doc_role": "current_overview",
+          "use_for": [
+            "foreign_investment_rules",
+            "bumiputera_requirements",
+            "land_conversion_process",
+            "us_tariff_impact",
+            "lss_application_process",
+            "investment_context"
+          ],
+          "warning": null,
+          "warning_type": null,
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "LSS5 Package 1 (1-10MW) requires 100% Bumiputera equity — foreign investors are completely excluded from this package. US anti-dumping tariffs of 21-271% on Malaysian solar panels have significantly increased module costs for export-oriented projects. Neither restriction appears prominently in official SEDA or ST programme documents.",
+          "legal_risk_level": "high"
+        }
+      },
+      {
+        "file_id": "agv_solar_eia_case_study_gopeng",
+        "filename": "agv_solar_eia_case_study_gopeng.pdf",
+        "source": {
+          "organization": "AGV Environment, Malaysia",
+          "type": "research_institution",
+          "url": "https://www.agvenvironment.com/solar-energy-project-eia/",
+          "date_published": "2022-04-18",
+          "date_fetched": "2026-04-11",
+          "author": "Steve, AGV Environment",
+          "format": "eia_case_study",
+          "peer_reviewed": false
+        },
+        "content": {
+          "title": "Solar Energy Project EIA — Gopeng, Perak Case Study",
+          "programme": "LSS",
+          "doc_type": "research_report",
+          "language": "english",
+          "coverage_years": "2021-2022",
+          "jurisdiction": "state",
+          "applicable_states": [
+            "perak"
+          ],
+          "legal_basis": [
+            "EQA 1974",
+            "EIA Order 2015"
+          ],
+          "approval_type": [
+            "EIA"
+          ],
+          "prescribed_activity": false,
+          "eia_track": "detailed",
+          "eia_schedule": "first",
+          "site_sensitivity": "environmentally_sensitive_area",
+          "land_tenure": "leasehold",
+          "approval_timeline_months": 4,
+          "public_display_required": true,
+          "key_data": {
+            "project_capacity_mw": 50,
+            "site_area_ha": 114.81,
+            "site_type": "matured oil palm estate",
+            "river_adjacency": true,
+            "esa_transect": true,
+            "overhead_cable_km": 15,
+            "substation": "TNB Kampar main intake substation",
+            "eia_classification": "industrial estate development + power generation and transmission",
+            "prescribed_activity_under_eia_order_2015": false,
+            "eia_required_by_doe": true,
+            "approval_timeline_months": 4,
+            "community_opposition": false
+          },
+          "summary": "Only publicly available real solar farm EIA case study in Malaysia. Key finding: solar farm is NOT listed as a prescribed activity under EIA Order 2015, yet DOE Perak required EIA submission, classifying it under industrial estate development and power generation categories. 50MW project on 114.81ha oil palm estate. EIA approval obtained within 4 months. Environmentally sensitive area transected by overhead cables was key approval risk factor."
+        },
+        "rag": {
+          "dimension": [
+            "approval"
+          ],
+          "region": [
+            "peninsular"
+          ],
+          "applicable_states": [
+            "perak"
+          ],
+          "status": "active",
+          "priority": "high",
+          "doc_role": "current_overview",
+          "use_for": [
+            "eia_process",
+            "site_selection_risk",
+            "approval_timeline",
+            "public_participation"
+          ],
+          "warning": null,
+          "warning_type": null,
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "Solar farm is NOT a prescribed activity under EIA Order 2015 — yet DOE can and does require EIA by classifying it under industrial estate or power generation categories. This creates unpredictable approval requirements that vary by DOE state office interpretation. Developers cannot assume EIA is not required simply because solar is not explicitly listed.",
+          "legal_risk_level": "high"
+        }
+      }
+    ]
+  },
+  "part6_unknown": {
+    "cross_references": [
+      {
+        "file_id": "ember_solar_grid_flexibility_oct2024",
+        "located_in": "metadata_part3_policy.json",
+        "why_relevant_for_part6": "Quantifies regional grid saturation — Sabah 150MW vs Peninsular 2,060MW LSS quota gap, Sarawak 28 sen vs Peninsular 40 sen/kWh tariff gap. Core numerical evidence for regional Unknown Unknowns."
+      },
+      {
+        "file_id": "iea_pvps_country_updates_2025",
+        "located_in": "metadata_part3_policy.json",
+        "why_relevant_for_part6": "Documents Sarawak SET-P and Sabah ECoS operating independently from federal programmes. Federal Solar ATAP and LSS do not apply in Sarawak."
+      },
+      {
+        "file_id": "dnp_law_solar_legal_requirements_2025",
+        "located_in": "metadata_part5_approval.json",
+        "why_relevant_for_part6": "US anti-dumping tariffs of 21-271% on Malaysian solar panels. Bumiputera equity requirements restricting foreign developer participation in LSS5 Package 1."
+      }
+    ],
+    "files": [
+      {
+        "file_id": "ember_wired_for_profit_asean_2025",
+        "filename": "ember_wired_for_profit_asean_2025.pdf",
+        "source": {
+          "organization": "Ember (independent energy think tank)",
+          "type": "research_institution",
+          "url": "https://ember-energy.org/app/uploads/2025/05/Report-Wired-for-profit-ASEAN-PDF.pdf",
+          "date_published": "2025-05-15",
+          "date_fetched": "2026-04-11",
+          "author": "Dr Dinita Setyawati, Shabrina Nadhila",
+          "format": "research_report",
+          "peer_reviewed": false,
+          "open_access": true,
+          "methodology": "market_survey",
+          "coverage_countries": [
+            "malaysia",
+            "singapore",
+            "thailand",
+            "indonesia",
+            "vietnam",
+            "philippines"
+          ]
+        },
+        "content": {
+          "title": "Wired for Profit: Grid is the Key to Unlock ASEAN Energy Investment",
+          "programme": "ENEGEM / CRESS / LTMS-PIP",
+          "doc_type": "research_report",
+          "language": "english",
+          "coverage_years": "2025-2035",
+          "risk_category": [
+            "cross_border_trade",
+            "grid_saturation"
+          ],
+          "data_vintage": "2025-05",
+          "forecast_horizon": "2035",
+          "quantified_risk": true,
+          "affected_region": [
+            "peninsular"
+          ],
+          "risk_magnitude": "high",
+          "data_source_type": "market_data",
+          "evidence_type": "quantitative",
+          "last_verified_date": "2025-05-15",
+          "update_frequency": "annual",
+          "risk_materialisation_timeline": "immediate",
+          "affected_project_type": [
+            "LSS",
+            "CRESS"
+          ],
+          "affected_capacity_range_mw": "50+",
+          "export_cap_mw": 300,
+          "interconnection_capacity_mw": 1000,
+          "utilisation_pct": 30,
+          "conflicting_with_official_doc": "NETR — NETR promotes Malaysia as RE export hub but does not disclose 300MW export cap",
+          "key_data": {
+            "re_export_singapore_cap_mw": 300,
+            "interconnection_singapore_capacity_mw": 1000,
+            "interconnection_utilisation_pct": 30,
+            "ltms_pip_phase2_malaysia_contribution_mw": 100,
+            "enegem_launch": "2023",
+            "first_re_export_singapore": "2024-12",
+            "cress_wheeling_fee": "undefined — under negotiation",
+            "grid_investment_needed_usd_billion_asean": "significant",
+            "malaysia_storage_reduction_potential_pct": 40
+          },
+          "summary": "Ember's May 2025 analysis of ASEAN grid investment and cross-border power trading. Key finding: Malaysia's RE export capacity to Singapore is capped at 300MW despite a 1GW interconnection line — 70% of capacity unutilised. CRESS wheeling fee to TNB remains undefined, creating financial uncertainty for RE developers. Malaysia has potential to become ASEAN's RE trading hub but structural barriers remain."
+        },
+        "rag": {
+          "dimension": [
+            "unknown",
+            "grid"
+          ],
+          "region": [
+            "peninsular"
+          ],
+          "status": "active",
+          "priority": "high",
+          "doc_role": "grid_analysis",
+          "use_for": [
+            "cross_border_trading",
+            "wheeling_fee_uncertainty",
+            "grid_capacity",
+            "investment_context",
+            "RE_targets"
+          ],
+          "warning": null,
+          "warning_type": null,
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "RE export to Singapore capped at 300MW despite 1GW interconnection line — 70% of capacity idle. CRESS wheeling fee to TNB is not yet defined, making project revenue projections for corporate RE sales unreliable. Neither constraint is disclosed in official NETR or SEDA documents.",
+          "trigger_keywords": [
+            "CRESS",
+            "Singapore export",
+            "wheeling fee",
+            "cross-border",
+            "ENEGEM"
+          ],
+          "proactive_alert": true,
+          "alert_message": "Did you know? Malaysia's RE export to Singapore is capped at 300MW despite a 1GW interconnection line being available. If you plan to sell RE to Singapore via CRESS, your revenue projections may be affected by this undisclosed cap.",
+          "risk_visibility": "invisible",
+          "confidence_level": "high",
+          "requires_verification": false,
+          "cross_check_with": [
+            "tnb_sustainability_report_2024",
+            "netr_part2_2023"
+          ],
+          "expiry_risk": true,
+          "expiry_note": "Export cap and wheeling fee terms are subject to ongoing bilateral negotiations — verify current status before project financial modelling.",
+          "legal_risk_level": "high"
+        }
+      },
+      {
+        "file_id": "infolink_malaysia_datacenter_grid_2025",
+        "filename": "infolink_malaysia_datacenter_grid_2025.pdf",
+        "source": {
+          "organization": "InfoLink Consulting",
+          "type": "research_institution",
+          "url": "https://www.infolink-group.com/energy-article/energy-storage-topic-malaysia-grid-side-tenders-break-new-ground-demand-ci-data-centers-unlocks-further-growth",
+          "date_published": "2025-08-01",
+          "date_fetched": "2026-04-11",
+          "format": "market_analysis",
+          "peer_reviewed": false,
+          "open_access": true,
+          "methodology": "market_survey",
+          "coverage_countries": [
+            "malaysia"
+          ]
+        },
+        "content": {
+          "title": "Malaysia: An Emerging ESS Market — Grid-Side Tenders Break New Ground, While Demand from C&I and Data Centers Unlocks Further Growth",
+          "programme": "LSS / CRESS / MyBeST / BESS",
+          "doc_type": "market_analysis",
+          "language": "english",
+          "coverage_years": "2025-2040",
+          "risk_category": [
+            "grid_saturation",
+            "demand_competition"
+          ],
+          "data_vintage": "2025-08",
+          "forecast_horizon": "2040",
+          "quantified_risk": true,
+          "affected_region": [
+            "peninsular"
+          ],
+          "risk_magnitude": "high",
+          "data_source_type": "official_statistics",
+          "evidence_type": "quantitative",
+          "last_verified_date": "2025-08-01",
+          "update_frequency": "quarterly",
+          "risk_materialisation_timeline": "immediate",
+          "affected_project_type": [
+            "LSS",
+            "CRESS",
+            "rooftop"
+          ],
+          "affected_capacity_range_mw": "50+",
+          "data_center_it_load_gw": 6.7,
+          "conflicting_with_official_doc": "LSS guidelines — LSS programme documents do not disclose data center grid competition risk",
+          "key_data": {
+            "peninsular_data_center_projects_planned": 47,
+            "total_it_load_gw": 6.7,
+            "incremental_demand_2030_gw": 13,
+            "incremental_demand_2040_gw": 20,
+            "peninsular_electricity_demand_2024_twh": 131,
+            "peninsular_electricity_demand_2025_twh": 135,
+            "demand_growth_rate_2025_2027_pct": 4.9,
+            "re_share_installed_capacity_2024_pct": 23,
+            "re_share_actual_generation_2024_pct": 9,
+            "fossil_fuel_share_2024_pct": 80,
+            "mybest_program": "utility-scale BESS — first standalone mechanism",
+            "cress_storage_integration": "formally enabled 2024"
+          },
+          "summary": "InfoLink's August 2025 market analysis of Malaysia's energy storage and grid landscape. Key finding: 47 planned data center projects with 6.7GW total IT load in Peninsular Malaysia as of August 2025. Incremental power demand projected at 13GW by 2030 and 20GW by 2040 — data centers are the primary driver of electricity demand growth. Solar developers are competing for the same grid connection slots as hyperscale data centers, creating structural grid access risk."
+        },
+        "rag": {
+          "dimension": [
+            "unknown",
+            "grid",
+            "utility"
+          ],
+          "region": [
+            "peninsular"
+          ],
+          "status": "active",
+          "priority": "high",
+          "doc_role": "current_overview",
+          "use_for": [
+            "datacenter_grid_competition",
+            "grid_capacity",
+            "capacity_planning",
+            "curtailment_risk",
+            "investment_context",
+            "bess_requirements"
+          ],
+          "warning": null,
+          "warning_type": null,
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "47 data center projects with 6.7GW IT load are competing for the same Peninsular Malaysia grid connection slots as LSS solar projects. By 2030, data center demand alone could reach 13GW — equivalent to 50% of current total grid capacity. This structural conflict is completely absent from LSS programme documents.",
+          "trigger_keywords": [
+            "data center",
+            "grid connection",
+            "capacity",
+            "BESS",
+            "storage"
+          ],
+          "proactive_alert": true,
+          "alert_message": "Did you know? 47 planned data centers with 6.7GW IT load are competing for grid connections in Peninsular Malaysia. Your LSS grid connection timeline may be significantly delayed due to data center priority queuing.",
+          "risk_visibility": "invisible",
+          "confidence_level": "high",
+          "requires_verification": false,
+          "cross_check_with": [
+            "st_energy_statistics_handbook_2023",
+            "tnb_sustainability_report_2024",
+            "ember_solar_grid_flexibility_oct2024"
+          ],
+          "expiry_risk": true,
+          "expiry_note": "Data center project numbers change monthly as new projects are announced and approved — verify current count before use.",
+          "legal_risk_level": "medium"
+        }
+      },
+      {
+        "file_id": "transitionzero_malaysia_asean_grid_2024",
+        "filename": "transitionzero_malaysia_asean_grid_2024.pdf",
+        "source": {
+          "organization": "TransitionZero (climate analytics non-profit)",
+          "type": "research_institution",
+          "url": "https://www.transitionzero.org/insights/tz-apg-malaysia-from-sceptic-to-believer",
+          "date_published": "2024-12-02",
+          "date_fetched": "2026-04-11",
+          "format": "policy_modelling",
+          "peer_reviewed": false,
+          "open_access": true,
+          "methodology": "power_system_modelling",
+          "model_name": "TZ-APG v1",
+          "coverage_countries": [
+            "malaysia",
+            "singapore",
+            "thailand",
+            "indonesia",
+            "vietnam",
+            "philippines",
+            "laos",
+            "cambodia",
+            "myanmar",
+            "brunei"
+          ]
+        },
+        "content": {
+          "title": "Malaysia: From Sceptic to Believer — TZ-APG Analysis of Malaysia's Role in ASEAN Power Grid",
+          "programme": "ENEGEM / LTMS-PIP / BIMP-PIP / CRESS",
+          "doc_type": "research_report",
+          "language": "english",
+          "coverage_years": "2023-2035",
+          "risk_category": [
+            "cross_border_trade",
+            "grid_saturation"
+          ],
+          "data_vintage": "2024-12",
+          "forecast_horizon": "2035",
+          "quantified_risk": true,
+          "affected_region": [
+            "peninsular",
+            "sabah",
+            "sarawak"
+          ],
+          "risk_magnitude": "medium",
+          "data_source_type": "modelling",
+          "evidence_type": "modelled",
+          "last_verified_date": "2024-12-02",
+          "update_frequency": "annual",
+          "risk_materialisation_timeline": "1-2yr",
+          "affected_project_type": [
+            "LSS",
+            "CRESS"
+          ],
+          "affected_capacity_range_mw": "50+",
+          "conflicting_with_official_doc": "NETR Part 2 — NETR promotes TPA and cross-border trading but does not disclose wheeling tariff negotiation delays",
+          "key_data": {
+            "regional_capacity_reduction_potential_pct": 8,
+            "regional_capacity_reduction_gw": 37,
+            "malaysia_storage_reduction_pct": 40,
+            "malaysia_gas_reduction_pct": 5,
+            "ltms_pip_delay_reason": "wheeling tariff formula negotiations",
+            "bimp_pip_status": "planning stage",
+            "singapore_import_target_2035_mw": 4000,
+            "malaysia_re_export_commenced": "2024-12",
+            "enegem_established": "2023",
+            "interconnection_malaysia_thailand_mw": 300,
+            "interconnection_expiry": "2027"
+          },
+          "summary": "TransitionZero's December 2024 open-access power system modelling of ASEAN grid interconnection scenarios 2023-2035. Key findings: regional grid development could reduce Malaysia's storage needs by 40%; LTMS-PIP faced delays in 2024 due to wheeling tariff negotiations; Malaysia-Thailand 300MW interconnection expires 2027. Commercial complexity of cross-border tariff agreements is a persistent risk for RE export projects."
+        },
+        "rag": {
+          "dimension": [
+            "unknown",
+            "grid"
+          ],
+          "region": [
+            "peninsular",
+            "sabah",
+            "sarawak"
+          ],
+          "status": "active",
+          "priority": "high",
+          "doc_role": "grid_analysis",
+          "use_for": [
+            "cross_border_trading",
+            "wheeling_fee_uncertainty",
+            "grid_capacity",
+            "regional_comparison",
+            "investment_context",
+            "RE_targets"
+          ],
+          "warning": null,
+          "warning_type": null,
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "Malaysia-Thailand 300MW interconnection expires 2027 — renewal terms not yet confirmed. LTMS-PIP delayed in 2024 due to wheeling tariff formula disputes — commercial complexity of cross-border agreements creates revenue uncertainty for RE export projects. BIMP-PIP connecting Sabah to Philippines remains in planning stage only.",
+          "trigger_keywords": [
+            "ASEAN grid",
+            "cross-border",
+            "Singapore export",
+            "Thailand interconnection",
+            "BIMP-PIP",
+            "LTMS"
+          ],
+          "proactive_alert": true,
+          "alert_message": "Did you know? Malaysia's 300MW interconnection with Thailand expires in 2027 with renewal terms unconfirmed. Cross-border RE trading revenues depend on complex multi-country tariff agreements that have already caused project delays.",
+          "risk_visibility": "low",
+          "confidence_level": "high",
+          "requires_verification": true,
+          "verification_source": "TNB / Energy Commission",
+          "cross_check_with": [
+            "ember_wired_for_profit_asean_2025",
+            "netr_part2_2023",
+            "tnb_sustainability_report_2024"
+          ],
+          "expiry_risk": true,
+          "expiry_note": "Interconnection agreements and wheeling tariff terms are subject to ongoing bilateral negotiations — verify current status before project financial modelling.",
+          "legal_risk_level": "medium"
+        }
+      },
+      {
+        "file_id": "iseas_datacenter_energy_2025",
+        "filename": "iseas_datacenter_energy_2025.pdf",
+        "source": {
+          "organization": "ISEAS — Yusof Ishak Institute, Singapore",
+          "type": "research_institution",
+          "url": "https://www.iseas.edu.sg/wp-content/uploads/2025/05/ISEAS_Perspective_2025_43.pdf",
+          "date_published": "2025-06-12",
+          "date_fetched": "2026-04-11",
+          "author": "Sara Loo",
+          "format": "academic_brief",
+          "peer_reviewed": true,
+          "open_access": true,
+          "methodology": "market_survey",
+          "coverage_countries": [
+            "malaysia"
+          ]
+        },
+        "content": {
+          "title": "Data Centres, Energy Demand and Sustainability: Can Malaysia Strike the Right Balance?",
+          "programme": "LSS / CRESS / CGPP",
+          "doc_type": "research_report",
+          "language": "english",
+          "coverage_years": "2024-2035",
+          "risk_category": [
+            "grid_saturation",
+            "demand_competition",
+            "tariff_reform"
+          ],
+          "data_vintage": "2025-06",
+          "forecast_horizon": "2035",
+          "quantified_risk": true,
+          "affected_region": [
+            "peninsular"
+          ],
+          "risk_magnitude": "high",
+          "data_source_type": "official_statistics",
+          "evidence_type": "quantitative",
+          "last_verified_date": "2025-06-12",
+          "update_frequency": "annual",
+          "risk_materialisation_timeline": "immediate",
+          "affected_project_type": [
+            "LSS",
+            "CRESS",
+            "rooftop"
+          ],
+          "affected_capacity_range_mw": "1-10",
+          "conflicting_with_official_doc": "LSS guidelines / Solar ATAP — neither discloses phantom demand grid blocking risk",
+          "key_data": {
+            "data_center_max_demand_secured_gw": 5.9,
+            "data_center_max_demand_secured_pct_tnb": 43,
+            "data_center_actual_load_mw": 405,
+            "data_center_actual_load_pct_tnb": 3,
+            "phantom_demand_ratio": "43% secured vs 3% actual utilisation",
+            "data_center_investment_2021_2024_rm_billion": 184.7,
+            "data_center_investment_2021_2024_usd_billion": 43.6,
+            "johor_datacenter_capacity_2024_gw": 1.3,
+            "johor_datacenter_capacity_2027_forecast_gw": 2.7,
+            "data_center_demand_2035_mw": 5000,
+            "data_center_share_peninsular_capacity_2035_pct": 40,
+            "tnb_green_lane_pathway_months": 12,
+            "projects_with_electricity_supply_agreement": 38
+          },
+          "summary": "ISEAS June 2025 academic analysis of Malaysia's data center energy demand vs grid capacity. Key finding: data centers have secured 5.9GW of maximum demand — 43% of TNB's total supply — while actual utilisation is only 405MW (3%). This phantom demand blocks grid connections for other users including solar developers. Also covers cost socialisation risk where data center grid costs may be passed to residential ratepayers, creating political pressure for tariff reform."
+        },
+        "rag": {
+          "dimension": [
+            "unknown",
+            "grid",
+            "utility"
+          ],
+          "region": [
+            "peninsular"
+          ],
+          "status": "active",
+          "priority": "high",
+          "doc_role": "current_overview",
+          "use_for": [
+            "datacenter_grid_competition",
+            "phantom_demand_risk",
+            "tariff_reform_risk",
+            "grid_capacity",
+            "capacity_planning",
+            "investment_context"
+          ],
+          "warning": null,
+          "warning_type": null,
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "Data centers have secured 5.9GW of grid capacity (43% of TNB total) but are only using 405MW (3%). This phantom demand is blocking grid connections for solar developers even though the grid is not physically full. TNB Green Lane gives data centers priority 12-month connection — solar projects have no equivalent fast-track.",
+          "trigger_keywords": [
+            "grid connection",
+            "waiting time",
+            "capacity",
+            "data center",
+            "tariff",
+            "TNB"
+          ],
+          "proactive_alert": true,
+          "alert_message": "Did you know? Data centers have reserved 43% of TNB's total grid capacity but are only using 3% of it. Your solar project's grid connection may be blocked by phantom demand from data centers that have not yet come online.",
+          "risk_visibility": "invisible",
+          "confidence_level": "high",
+          "requires_verification": false,
+          "cross_check_with": [
+            "infolink_malaysia_datacenter_grid_2025",
+            "st_energy_statistics_handbook_2023",
+            "tnb_sustainability_report_2024"
+          ],
+          "expiry_risk": true,
+          "expiry_note": "Phantom demand ratio changes as data centers come online — actual utilisation figure should be verified against latest TNB data before use.",
+          "legal_risk_level": "high"
+        }
+      },
+      {
+        "file_id": "us_tariff_final_determination_apr2025",
+        "filename": "us_tariff_final_determination_apr2025.html",
+        "source": {
+          "organization": "U.S. Department of Commerce / Norton Rose Fulbright",
+          "type": "legal_analysis",
+          "url": "https://www.projectfinance.law/publications/2025/april/updated-solar-import-tariffs/",
+          "date_published": "2025-04-22",
+          "date_fetched": "2026-04-11"
+        },
+        "content": {
+          "title": "Final AD/CVD Determinations on Solar Cells from Malaysia, Cambodia, Thailand, Vietnam",
+          "doc_type": "legal_analysis",
+          "language": "english",
+          "coverage_years": "2024-2026",
+          "key_data": {
+            "cvd_effective_date_malaysia": "2024-10-04",
+            "ad_effective_date_malaysia": "2024-12-04",
+            "reciprocal_tariff_malaysia_pct": 24,
+            "reciprocal_tariff_status": "suspended_90_days_as_of_apr2025",
+            "section_201_tariff_pct": 14,
+            "section_201_expiry": "2026-02-06",
+            "ad_rate_malaysia_all_others_pct": "21-271",
+            "final_determination_date": "2025-04-21",
+            "cumulative_tariff_impact": "AD + CVD + Section 201 + reciprocal tariffs stack"
+          },
+          "summary": "Final US anti-dumping and countervailing duty determinations on Malaysian solar panels. Multiple tariff layers stack on top of each other. Short-term effect: Malaysian manufacturers redirect export inventory to domestic market, suppressing local CAPEX. Long-term risk: manufacturers may shut Malaysian facilities entirely, disrupting domestic solar supply chain. Maxeon already evaluating closure of Malaysian Fab 3."
+        },
+        "rag": {
+          "dimension": [
+            "unknown",
+            "cost"
+          ],
+          "region": [
+            "federal"
+          ],
+          "status": "active",
+          "priority": "high",
+          "doc_role": "supply_chain_risk",
+          "use_for": [
+            "CAPEX_risk",
+            "supply_chain",
+            "module_pricing"
+          ],
+          "warning": "Tariff rates subject to ongoing appeals and negotiations — verify current status before financial modelling.",
+          "warning_type": "outdated",
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "US tariffs create a paradox: short-term CAPEX deflation as manufacturers flood domestic market with unsold inventory, followed by potential long-term supply disruption if facilities close. Net CAPEX impact is uncertain and not disclosed in any official Malaysian solar programme documents.",
+          "trigger_keywords": [
+            "module price",
+            "CAPEX",
+            "supply chain",
+            "panel cost"
+          ],
+          "proactive_alert": true,
+          "alert_message": "Did you know? US anti-dumping tariffs on Malaysian solar panels may temporarily lower your local module costs as manufacturers redirect stock domestically — but could cause supply shortages if manufacturers close Malaysian facilities.",
+          "risk_visibility": "low",
+          "confidence_level": "high",
+          "requires_verification": true,
+          "expiry_risk": true,
+          "expiry_note": "Tariff rates and suspension status change frequently — verify current rates before use.",
+          "legal_risk_level": "medium"
+        }
+      },
+      {
+        "file_id": "sarawak_set_p_independent_framework_2025",
+        "filename": "sarawak_set_p_independent_framework_2025.html",
+        "source": {
+          "organization": "Reccessary / Sarawak Government",
+          "type": "industry_media",
+          "url": "https://www.reccessary.com/en/news/sarawak-unveils-energy-transition-policy-first-in-malaysia",
+          "date_published": "2025-08-12",
+          "date_fetched": "2026-04-11"
+        },
+        "content": {
+          "title": "Sarawak Energy Transition Policy (SET-P) — First State-Level Energy Transition Policy in Malaysia",
+          "doc_type": "policy_announcement",
+          "language": "english",
+          "coverage_years": "2025-2035",
+          "key_data": {
+            "estimated_economic_value_myr_billion": 550,
+            "estimated_economic_value_usd_billion": 129.9,
+            "jobs_created": 80000,
+            "re_target_2030_pct": 60,
+            "total_capacity_target_2030_gw": 10,
+            "total_capacity_target_2035_gw": 15,
+            "solar_target_2030_mw": 1500,
+            "hydro_capacity_2030_mw": 4800,
+            "energy_export_target_mw": 130,
+            "federal_seda_programmes_applicable": false,
+            "state_council_planned": true,
+            "seven_priority_areas": [
+              "RE",
+              "natural_gas",
+              "energy_efficiency",
+              "low_carbon_transport",
+              "clean_hydrogen",
+              "CCUS",
+              "alternative_energy"
+            ]
+          },
+          "summary": "Sarawak launched Malaysia's first state-level energy transition policy in August 2025. Seven priority areas include RE, hydrogen, and CCUS. Critically: federal SEDA programmes (ATAP, LSS) do not apply in Sarawak — developers must engage with SEB (Sarawak Energy Berhad) under separate state ordinance. Sarawak's abundant hydropower gives it a completely different cost structure and grid dynamics from Peninsular Malaysia. Floating solar at Bakun Dam (up to 1GW) represents a major opportunity invisible in federal programme documents."
+        },
+        "rag": {
+          "dimension": [
+            "unknown",
+            "policy",
+            "grid"
+          ],
+          "region": [
+            "sarawak"
+          ],
+          "status": "active",
+          "priority": "high",
+          "doc_role": "regional_policy_framework",
+          "use_for": [
+            "sarawak_policy",
+            "regional_comparison",
+            "investment_context"
+          ],
+          "warning": "SET-P is a 2025 policy — implementation details and programme mechanisms are still being developed.",
+          "warning_type": "outdated",
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "Developers applying for federal ATAP or LSS programmes will discover that these do not apply in Sarawak only after submitting applications. Sarawak requires separate engagement with SEB under Sarawak Electricity Ordinance — a completely different regulatory process with different timelines, fees, and approval criteria.",
+          "trigger_keywords": [
+            "Sarawak",
+            "SET-P",
+            "SEB",
+            "Bakun",
+            "floating solar"
+          ],
+          "proactive_alert": true,
+          "alert_message": "Did you know? Federal solar programmes (ATAP, LSS) do not apply in Sarawak. If your project is in Sarawak, you must apply under the state's own SET-P framework through SEB — a completely different process.",
+          "risk_visibility": "invisible",
+          "confidence_level": "high",
+          "requires_verification": true,
+          "expiry_risk": true,
+          "expiry_note": "SET-P implementation details still being developed — verify current programme status before project planning.",
+          "legal_risk_level": "high"
+        }
+      },
+      {
+        "file_id": "malaysia_rec_market_fragmentation_2025",
+        "filename": "malaysia_rec_market_fragmentation_2025.html",
+        "source": {
+          "organization": "ASEAN Centre for Energy",
+          "type": "research_institution",
+          "url": "https://aseanenergy.org/wp-content/uploads/2025/01/Policy-Brief_Malaysia-REC-Assessment.pdf",
+          "date_published": "2025-01-01",
+          "date_fetched": "2026-04-11"
+        },
+        "content": {
+          "title": "Malaysia REC Market Assessment — Three Independent REC Systems",
+          "doc_type": "policy_brief",
+          "language": "english",
+          "coverage_years": "2024-2030",
+          "key_data": {
+            "independent_rec_systems": 3,
+            "rec_systems": [
+              "Peninsular (ENEGEM)",
+              "Sabah (ECoS framework)",
+              "Sarawak (SEB framework)"
+            ],
+            "cross_region_rec_tradeable": false,
+            "cgpp_quota_mw": 800,
+            "cgpp_fully_subscribed": true,
+            "cgpp_participants": 32,
+            "rec_market_harmonisation_status": "under_discussion"
+          },
+          "summary": "ASEAN Centre for Energy policy brief on Malaysia's fragmented REC market. Three independent systems across Peninsular, Sabah, and Sarawak cannot trade RECs with each other. Corporate buyers seeking to procure RE across multiple regions must navigate three separate regulatory frameworks. CGPP (800MW) already fully subscribed with 32 participants. REC market harmonisation discussed but not yet implemented."
+        },
+        "rag": {
+          "dimension": [
+            "unknown",
+            "utility",
+            "policy"
+          ],
+          "region": [
+            "peninsular",
+            "sabah",
+            "sarawak",
+            "federal"
+          ],
+          "status": "active",
+          "priority": "medium",
+          "doc_role": "market_structure_analysis",
+          "use_for": [
+            "REC_market",
+            "corporate_procurement",
+            "regional_comparison",
+            "CRESS_context"
+          ],
+          "warning": null,
+          "warning_type": null,
+          "unknown_unknown_flag": true,
+          "unknown_unknown_note": "Malaysia has three non-interoperable REC systems across its three independent grids. A corporate buyer in Peninsular Malaysia cannot use Sarawak RECs to meet its ESG targets — and vice versa. This fragmentation is not disclosed in CRESS or CGPP programme documents, yet directly affects whether corporate RE procurement agreements can be structured across regions.",
+          "trigger_keywords": [
+            "REC",
+            "green certificate",
+            "CRESS",
+            "corporate procurement",
+            "ESG"
+          ],
+          "proactive_alert": true,
+          "alert_message": "Did you know? Malaysia's three grid regions have separate, non-tradeable REC systems. RECs issued in Sarawak cannot be used to meet ESG targets in Peninsular Malaysia. Cross-regional RE procurement requires separate agreements in each jurisdiction.",
+          "risk_visibility": "invisible",
+          "confidence_level": "high",
+          "requires_verification": false,
+          "expiry_risk": false,
+          "expiry_note": null,
+          "legal_risk_level": "medium"
+        }
+      }
+    ]
+  }
+}
