@@ -42,7 +42,9 @@ def load_vectorstore():
     )
     return vectorstore
 
-def run_ask(query, region, vectorstore):
+
+def run_ask(query, region, vectorstore, history=None):
+    
     """
     Direct implementation using already-loaded vectorstore.
     Mirrors ask() from 02_agent.ipynb without re-loading models.
@@ -143,8 +145,9 @@ def run_ask(query, region, vectorstore):
 Answer the user's question using ONLY the context provided below.
 - Prioritise information from DATABASE CONTEXT over web results.
 - If data is missing, explicitly say so — do not guess.
-- Be concise and specific. Use numbers and facts where available.
-- When citing information, mention the source organisation name (e.g. "According to BloombergNEF..." or "As noted by SEDA...").
+- Be concise and specific. Use numbers and facts where available. When cost data includes a range, always state the full range (e.g. $33–61/MWh), not a single number.- When citing information, mention the source organisation name (e.g. "According to BloombergNEF..." or "As noted by SEDA...").
+- If the question is unrelated to Malaysia solar development, politely say you can only help with solar development questions in Malaysia.
+
 
 DATABASE CONTEXT:
 {rag_context}
@@ -153,10 +156,19 @@ DATABASE CONTEXT:
 USER QUESTION: {query}"""
 
     # Step 6 — Call Groq
+    # Build history messages (last 3 exchanges only, text content only)
+    history_messages = []
+    if history:
+        for msg in history[-6:]:
+            if msg["role"] == "user":
+                history_messages.append({"role": "user", "content": msg["content"]})
+            elif msg["role"] == "assistant":
+                history_messages.append({"role": "assistant", "content": msg.get("content", "")})
+
     client = Groq(api_key=groq_key)
     response = client.chat.completions.create(
         model="llama-3.3-70b-versatile",
-        messages=[{"role": "user", "content": prompt}],
+        messages=history_messages + [{"role": "user", "content": prompt}],
         temperature=0.2,
         max_tokens=1024
     )
@@ -600,7 +612,8 @@ if query:
 
     with st.spinner("Searching knowledge base..."):
         try:
-            result = run_ask(query, region, st.session_state.vectorstore)
+            result = run_ask(query, region, st.session_state.vectorstore,
+                             history=st.session_state.messages)
             answer      = result.get("answer", "No answer generated.")
             rag_sources = result.get("rag_sources", [])
             web_sources = result.get("web_sources", [])
